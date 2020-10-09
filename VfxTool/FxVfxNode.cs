@@ -96,7 +96,8 @@ namespace VfxTool
 
             foreach(var property in this.properties)
             {
-                writer.WriteStartElement(property.Key);
+                writer.WriteStartElement("property");
+                writer.WriteAttributeString("name", property.Key);
 
                 foreach(var val in property.Value)
                 {

@@ -12,6 +12,7 @@ namespace VfxTool
         private ushort nodeCount;
         private ushort edgeCount;
         private readonly IList<FxVfxNode> nodes = new List<FxVfxNode>();
+        private readonly IList<FxModuleEdge> edges = new List<FxModuleEdge>();
 
         public void Read(BinaryReader reader, IDictionary<ulong, FxVfxNodeDefinition> definitions)
         {
@@ -33,7 +34,10 @@ namespace VfxTool
                 TryReadNode(reader, definitions);
             }
 
-            // TODO read edges
+            for (var i = 0; i < edgeCount; i++)
+            {
+                ReadEdge(reader);
+            }
         }
 
         private void TryReadNode(BinaryReader reader, IDictionary<ulong, FxVfxNodeDefinition> definitions)
@@ -47,6 +51,12 @@ namespace VfxTool
             var definition = definitions[hash];
             var node = FxVfxNode.Read(reader, definition);
             nodes.Add(node);
+        }
+
+        private void ReadEdge(BinaryReader reader)
+        {
+            var edge = FxModuleEdge.Read(reader);
+            edges.Add(edge);
         }
 
         public XmlSchema GetSchema()
@@ -69,6 +79,16 @@ namespace VfxTool
             {
                 writer.WriteStartElement("node");
                 node.WriteXml(writer);
+                writer.WriteEndElement();
+            }
+
+            writer.WriteEndElement();
+            
+            writer.WriteStartElement("edges");
+            foreach (var edge in edges)
+            {
+                writer.WriteStartElement("edge");
+                edge.WriteXml(writer);
                 writer.WriteEndElement();
             }
 

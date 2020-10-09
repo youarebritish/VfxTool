@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FxModuleEdge.cs" />
     <Compile Include="FxVfxFile.cs" />
     <Compile Include="FxVfxNode.cs" />
     <Compile Include="FxVfxNodeDefinition.cs" />
