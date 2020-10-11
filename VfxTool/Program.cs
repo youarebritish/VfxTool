@@ -27,9 +27,8 @@ namespace VfxTool
                 var fileExtension = Path.GetExtension(path);
                 if (fileExtension.Equals(".xml", StringComparison.OrdinalIgnoreCase))
                 {
-                    // TODO
-                    //var vfx = ReadFromXml(path);
-                    //WriteToBinary(vfx, Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(path)) + ".vfx");
+                    var vfx = ReadFromXml(path, definitions);
+                    WriteToBinary(vfx, Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(path)) + ".vfx");
                 }
                 else if (fileExtension.Equals(".vfx", StringComparison.OrdinalIgnoreCase))
                 {
@@ -52,10 +51,26 @@ namespace VfxTool
 
         private static FxVfxFile ReadFromBinary(string path, IDictionary<ulong, FxVfxNodeDefinition> definitions)
         {
-            var vfx = new FxVfxFile();
+            var vfx = new FxVfxFile(definitions);
             using (var reader = new BinaryReader(new FileStream(path, FileMode.Open)))
             {
-                vfx.Read(reader, definitions);
+                vfx.Read(reader);
+            }
+
+            return vfx;
+        }
+
+        public static FxVfxFile ReadFromXml(string path, IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        {
+            var xmlReaderSettings = new XmlReaderSettings
+            {
+                IgnoreWhitespace = true
+            };
+
+            var vfx = new FxVfxFile(definitions);
+            using (var reader = XmlReader.Create(path, xmlReaderSettings))
+            {
+                vfx.ReadXml(reader);
             }
 
             return vfx;
@@ -75,7 +90,15 @@ namespace VfxTool
             }
         }
 
-        private static ulong HashString(string text)
+        private static void WriteToBinary(FxVfxFile vfx, string path)
+        {
+            using (var writer = new BinaryWriter(new FileStream(path, FileMode.OpenOrCreate)))
+            {
+                vfx.Write(writer);
+            }
+        }
+
+        public static ulong HashString(string text)
         {
             if (text == null) throw new ArgumentNullException(nameof(text));
             const ulong seed0 = 0x9ae16a3b2f90404f;

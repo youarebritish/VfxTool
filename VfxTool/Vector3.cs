@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Xml;
@@ -30,7 +31,9 @@ namespace LbaTool
 
         public void ReadXml(XmlReader reader)
         {
-            throw new System.NotImplementedException();
+            X = float.Parse(reader["x"]);
+            Y = float.Parse(reader["y"]);
+            Z = float.Parse(reader["z"]);
         }
 
         public void WriteXml(XmlWriter writer)
@@ -38,6 +41,13 @@ namespace LbaTool
             writer.WriteAttributeString("x", X.ToString(CultureInfo.InvariantCulture));
             writer.WriteAttributeString("y", Y.ToString(CultureInfo.InvariantCulture));
             writer.WriteAttributeString("z", Z.ToString(CultureInfo.InvariantCulture));
+        }
+
+        internal void Write(BinaryWriter writer)
+        {
+            writer.Write(X);
+            writer.Write(Y);
+            writer.Write(Z);
         }
     }
 }

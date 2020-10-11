@@ -13,8 +13,14 @@ namespace VfxTool
         private ushort edgeCount;
         private readonly IList<FxVfxNode> nodes = new List<FxVfxNode>();
         private readonly IList<FxModuleEdge> edges = new List<FxModuleEdge>();
+        private readonly IDictionary<ulong, FxVfxNodeDefinition> definitions;
 
-        public void Read(BinaryReader reader, IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        public FxVfxFile(IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        {
+            this.definitions = definitions;
+        }
+
+        public void Read(BinaryReader reader)
         {
             var signature = reader.ReadChars(3);
             var version = reader.ReadUInt16();
@@ -37,6 +43,30 @@ namespace VfxTool
             for (var i = 0; i < edgeCount; i++)
             {
                 ReadEdge(reader);
+            }
+        }
+
+        public void Write(BinaryWriter writer)
+        {
+            writer.Write('v');
+            writer.Write('f');
+            writer.Write('x');
+            writer.Write((byte)2);
+
+            writer.Write((ushort)this.nodes.Count);
+            writer.Write((ushort)this.edges.Count);
+
+            writer.Write(0);
+            writer.Write((ushort)0);
+
+            foreach(var node in this.nodes)
+            {
+                node.Write(writer);
+            }
+
+            foreach (var edge in this.edges)
+            {
+                edge.Write(writer);
             }
         }
 
@@ -66,7 +96,39 @@ namespace VfxTool
 
         public void ReadXml(XmlReader reader)
         {
-            throw new NotImplementedException();
+            reader.Read();
+            reader.ReadStartElement("vfx");
+            reader.ReadStartElement("nodes");
+
+            while (reader.NodeType == XmlNodeType.Element)
+            {
+                if (reader.LocalName == "edges")
+                {
+                    break;
+                }
+
+                var type = reader.GetAttribute("class");
+                var typeHash = Program.HashString(type);
+
+                if (!this.definitions.ContainsKey(typeHash))
+                {
+                    throw new FormatException($"Unrecognized node type {type}");
+                }
+
+                var definition = this.definitions[typeHash];
+                var node = FxVfxNode.FromTemplate(definition);
+                node.ReadXml(reader);
+
+                this.nodes.Add(node);
+            }
+
+            reader.ReadStartElement("edges");
+            while (reader.NodeType == XmlNodeType.Element)
+            {
+                var edge = new FxModuleEdge();
+                edge.ReadXml(reader);
+                this.edges.Add(edge);
+            }
         }
 
         public void WriteXml(XmlWriter writer)
@@ -83,7 +145,7 @@ namespace VfxTool
             }
 
             writer.WriteEndElement();
-            
+
             writer.WriteStartElement("edges");
             foreach (var edge in edges)
             {

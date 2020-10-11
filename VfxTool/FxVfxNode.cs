@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
@@ -13,15 +14,34 @@ namespace VfxTool
     [DebuggerDisplay("{type}")]
     internal class FxVfxNode : IXmlSerializable
     {
-        private string type;
+        private FxVfxNodeDefinition definition;
         private IDictionary<string, IList> properties = new Dictionary<string, IList>();
+
+        private FxVfxNode() { }
+
+        public static FxVfxNode FromTemplate(FxVfxNodeDefinition definition)
+        {
+            var node = new FxVfxNode
+            {
+                definition = definition
+            };
+
+            foreach (var property in definition.properties)
+            {
+                node.properties.Add(property.name, new List<object>());
+            }
+
+            return node;
+        }
 
         public static FxVfxNode Read(BinaryReader reader, FxVfxNodeDefinition definition)
         {
-            var node = new FxVfxNode();
-            node.type = definition.name;
+            var node = new FxVfxNode
+            {
+                definition = definition
+            };
 
-            foreach(var property in definition.properties)
+            foreach (var property in definition.properties)
             {
                 var values = new List<object>();
                 node.properties.Add(property.name, values);
@@ -34,6 +54,85 @@ namespace VfxTool
             }
 
             return node;
+        }
+
+        public void Write(BinaryWriter writer)
+        {
+            var hash = Program.HashString(this.definition.name);
+            writer.Write(hash);
+
+            foreach(var propertyDefinition in this.definition.properties)
+            {
+                var values = this.properties[propertyDefinition.name];
+                writer.Write((byte)values.Count);
+
+                foreach(var value in values)
+                {
+                    WriteValue(writer, value, propertyDefinition.type);
+                }
+            }
+        }
+
+        private static void WriteValue(BinaryWriter writer, object value, string type)
+        {
+            switch (type)
+            {
+                case "int8":
+                    writer.Write((sbyte)value);
+                    return;
+                case "uint8":
+                    writer.Write((byte)value);
+                    return;
+                case "int16":
+                    writer.Write((short)value);
+                    return;
+                case "uint16":
+                    writer.Write((ushort)value);
+                    return;
+                case "int":
+                case "int32":
+                    writer.Write((int)value);
+                    return;
+                case "uint":
+                case "uint32":
+                    writer.Write((uint)value);
+                    return;
+                case "int64":
+                    writer.Write((long)value);
+                    return;
+                case "uint64":
+                    writer.Write((ulong)value);
+                    return;
+                case "float":
+                    writer.Write((float)value);
+                    return;
+                case "double":
+                    writer.Write((double)value);
+                    return;
+                case "bool":
+                    writer.Write((bool)value);
+                    return;
+                case "Vector3":
+                    (value as Vector3)?.Write(writer);
+                    return;
+                case "Vector4":
+                case "Quaternion":
+                    (value as Vector4)?.Write(writer);
+                    return;
+                case "string":
+                    var str = value as string;
+                    writer.Write((ushort)str.Length);
+
+                    foreach(var character in str)
+                    {
+                        writer.Write(character);
+                    }
+
+                    writer.Write((byte)0);
+                    return;
+                default:
+                    throw new FormatException($"Unknown property type {type}");
+            }
         }
 
         private static object ReadValue(BinaryReader reader, string type)
@@ -87,12 +186,59 @@ namespace VfxTool
 
         public void ReadXml(XmlReader reader)
         {
-            throw new NotImplementedException();
+            reader.ReadStartElement("node");
+
+            if (this.definition.properties.Count == 0)
+            {
+                return;
+            }
+
+            while (reader.NodeType == XmlNodeType.Element)
+            {
+                var name = reader.GetAttribute("name");
+
+                var propertyDefinitions = definition.properties.ToDictionary(prop => prop.name, prop => prop);
+                if (!propertyDefinitions.ContainsKey(name))
+                {
+                    throw new FormatException($"Unexpected property '{name}' in node type '{this.definition.name}'");
+                }
+
+                var propertyDefinition = propertyDefinitions[name];
+                var property = this.properties[name];
+                reader.ReadStartElement("property");
+
+                while (reader.NodeType == XmlNodeType.Element)
+                {
+                    object val = null;
+                    if (propertyDefinition.type == "Vector3")
+                    {
+                        val = new Vector3();
+                        (val as Vector3)?.ReadXml(reader);
+                        reader.Read();
+                    }
+                    else if (propertyDefinition.type == "Vector4")
+                    {
+                        val = new Vector4();
+                        (val as Vector4)?.ReadXml(reader);
+                        reader.Read();
+                    }
+                    else
+                    {
+                        val = reader.ReadElementContentAsObject();
+                    }
+
+                    property.Add(val);
+                }
+
+                reader.ReadEndElement();
+            }
+
+            reader.ReadEndElement();
         }
 
         public void WriteXml(XmlWriter writer)
         {
-            writer.WriteAttributeString("class", this.type);
+            writer.WriteAttributeString("class", this.definition.name);
 
             foreach(var property in this.properties)
             {

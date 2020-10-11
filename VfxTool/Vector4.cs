@@ -32,7 +32,10 @@ namespace LbaTool
 
         public void ReadXml(XmlReader reader)
         {
-            throw new System.NotImplementedException();
+            X = float.Parse(reader["x"]);
+            Y = float.Parse(reader["y"]);
+            Z = float.Parse(reader["z"]);
+            W = float.Parse(reader["w"]);
         }
 
         public void WriteXml(XmlWriter writer)
@@ -41,6 +44,14 @@ namespace LbaTool
             writer.WriteAttributeString("y", Y.ToString(CultureInfo.InvariantCulture));
             writer.WriteAttributeString("z", Z.ToString(CultureInfo.InvariantCulture));
             writer.WriteAttributeString("w", W.ToString(CultureInfo.InvariantCulture));
+        }
+
+        internal void Write(BinaryWriter writer)
+        {
+            writer.Write(X);
+            writer.Write(Y);
+            writer.Write(Z);
+            writer.Write(W);
         }
     }
 }

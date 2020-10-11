@@ -28,6 +28,16 @@ namespace VfxTool
             return edge;
         }
 
+        public void Write(BinaryWriter writer)
+        {
+            writer.Write((byte)this.sourceNodeIndex);
+            writer.Write((byte)this.targetNodeIndex);
+            writer.Write((byte)this.sourcePortType);
+            writer.Write((byte)this.sourcePortIndex);
+            writer.Write((byte)this.targetPortType);
+            writer.Write((byte)this.targetPortIndex);
+        }
+
         public XmlSchema GetSchema()
         {
             return null;
@@ -35,7 +45,14 @@ namespace VfxTool
 
         public void ReadXml(XmlReader reader)
         {
-            throw new System.NotImplementedException();
+            this.sourceNodeIndex = byte.Parse(reader["sourceNodeIndex"]);
+            this.targetNodeIndex = byte.Parse(reader["targetNodeIndex"]);
+            this.sourcePortType = byte.Parse(reader["sourcePortType"]);
+            this.sourcePortIndex = byte.Parse(reader["sourcePortIndex"]);
+            this.targetPortType = byte.Parse(reader["targetPortType"]);
+            this.targetPortIndex = byte.Parse(reader["targetPortIndex"]);
+
+            reader.Read();
         }
 
         public void WriteXml(XmlWriter writer)
