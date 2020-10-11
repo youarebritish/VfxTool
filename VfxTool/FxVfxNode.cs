@@ -73,44 +73,55 @@ namespace VfxTool
             }
         }
 
+        private static bool ParseBool(string str)
+        {
+            if (string.IsNullOrEmpty(str))
+            {
+                return false;
+            }
+
+            return bool.Parse(str);
+        }
+
         private static void WriteValue(BinaryWriter writer, object value, string type)
         {
+            var str = value as string;
             switch (type)
             {
                 case "int8":
-                    writer.Write((sbyte)value);
+                    writer.Write(sbyte.Parse(str));
                     return;
                 case "uint8":
-                    writer.Write((byte)value);
+                    writer.Write(byte.Parse(str));
                     return;
                 case "int16":
-                    writer.Write((short)value);
+                    writer.Write(short.Parse(str));
                     return;
                 case "uint16":
-                    writer.Write((ushort)value);
+                    writer.Write(ushort.Parse(str));
                     return;
                 case "int":
                 case "int32":
-                    writer.Write((int)value);
+                    writer.Write(int.Parse(str));
                     return;
                 case "uint":
                 case "uint32":
-                    writer.Write((uint)value);
+                    writer.Write(uint.Parse(str));
                     return;
                 case "int64":
-                    writer.Write((long)value);
+                    writer.Write(long.Parse(str));
                     return;
                 case "uint64":
-                    writer.Write((ulong)value);
+                    writer.Write(ulong.Parse(str));
                     return;
                 case "float":
-                    writer.Write((float)value);
+                    writer.Write(float.Parse(str));
                     return;
                 case "double":
-                    writer.Write((double)value);
+                    writer.Write(double.Parse(str));
                     return;
                 case "bool":
-                    writer.Write((bool)value);
+                    writer.Write(ParseBool(str));
                     return;
                 case "Vector3":
                     (value as Vector3)?.Write(writer);
@@ -120,9 +131,7 @@ namespace VfxTool
                     (value as Vector4)?.Write(writer);
                     return;
                 case "string":
-                    var str = value as string;
                     writer.Write((ushort)str.Length);
-
                     foreach(var character in str)
                     {
                         writer.Write(character);
@@ -216,7 +225,7 @@ namespace VfxTool
                         (val as Vector3)?.ReadXml(reader);
                         reader.Read();
                     }
-                    else if (propertyDefinition.type == "Vector4")
+                    else if (propertyDefinition.type == "Vector4" || propertyDefinition.type == "Quaternion")
                     {
                         val = new Vector4();
                         (val as Vector4)?.ReadXml(reader);

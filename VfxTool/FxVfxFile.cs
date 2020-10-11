@@ -51,7 +51,7 @@ namespace VfxTool
             writer.Write('v');
             writer.Write('f');
             writer.Write('x');
-            writer.Write((byte)2);
+            writer.Write((ushort)2);
 
             writer.Write((ushort)this.nodes.Count);
             writer.Write((ushort)this.edges.Count);
@@ -59,7 +59,7 @@ namespace VfxTool
             writer.Write(0);
             writer.Write((ushort)0);
 
-            foreach(var node in this.nodes)
+            foreach (var node in this.nodes)
             {
                 node.Write(writer);
             }
@@ -122,6 +122,7 @@ namespace VfxTool
                 this.nodes.Add(node);
             }
 
+            reader.ReadEndElement();
             reader.ReadStartElement("edges");
             while (reader.NodeType == XmlNodeType.Element)
             {
