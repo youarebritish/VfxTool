@@ -1,0 +1,10 @@
+{
+  "name": "FxOscillateVector2Node",
+  "properties":
+  [
+    {
+      "name": "periodicity",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "FxDelayNumEmitNode",
+  "properties": 
+  [
+    {
+      "name": "int1",
+      "type": "int"
+    },
+    {
+      "name": "int2",
+      "type": "int"
+    },
+    {
+      "name": "int3",
+      "type": "int"
+    },
+    {
+      "name": "int4",
+      "type": "int"
+    },
+    {
+      "name": "int5",
+      "type": "int"
+    },
+    {
+      "name": "int6",
+      "type": "int"
+    },
+  ]
+}

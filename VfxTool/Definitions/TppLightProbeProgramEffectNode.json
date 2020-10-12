@@ -1,0 +1,58 @@
+{
+  "name": "TppLightProbeProgramEffectNode",
+  "properties": 
+  [
+    {
+      "name": "coefficients",
+      "type": "Vector4"
+    },
+    {
+      "name": "int1",
+      "type": "int"
+    },
+    {
+      "name": "bool1",
+      "type": "bool"
+    },
+    {
+      "name": "float1",
+      "type": "float"
+    },
+    {
+      "name": "float2",
+      "type": "float"
+    },
+    {
+      "name": "float3",
+      "type": "float"
+    },
+    {
+      "name": "float4",
+      "type": "float"
+    },
+    {
+      "name": "float5",
+      "type": "float"
+    },
+    {
+      "name": "float6",
+      "type": "float"
+    },
+    {
+      "name": "bool2",
+      "type": "bool"
+    },
+    {
+      "name": "float7",
+      "type": "float"
+    },
+    {
+      "name": "float8",
+      "type": "float"
+    },
+    {
+      "name": "float9",
+      "type": "float"
+    },
+  ]
+}

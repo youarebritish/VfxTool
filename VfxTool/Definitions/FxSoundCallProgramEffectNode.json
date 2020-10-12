@@ -1,0 +1,62 @@
+{
+  "name": "FxSoundCallProgramEffectNode",
+  "properties":
+  [
+    {
+      "name": "bool1",
+      "type": "bool"
+    },
+	{
+      "name": "bool2",
+      "type": "bool"
+    },
+	{
+      "name": "bool3",
+      "type": "bool"
+    },
+	{
+      "name": "bool4",
+      "type": "bool"
+    },
+	{
+      "name": "bool5",
+      "type": "bool"
+    },
+	{
+      "name": "bool6",
+      "type": "bool"
+    },
+	{
+      "name": "bool7",
+      "type": "bool"
+    },
+	{
+      "name": "bool8",
+      "type": "bool"
+    },
+	{
+      "name": "int1",
+      "type": "int"
+    },
+	{
+      "name": "float1",
+      "type": "float"
+    },
+	{
+      "name": "float2",
+      "type": "float"
+    },
+	{
+      "name": "str1",
+      "type": "string"
+    },
+	{
+      "name": "str2",
+      "type": "string"
+    },
+	{
+      "name": "str3",
+      "type": "string"
+    },
+  ]
+}

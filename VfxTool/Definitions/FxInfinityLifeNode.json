@@ -1,0 +1,10 @@
+{
+  "name": "FxInfinityLifeNode",
+  "properties": 
+  [
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    }
+  ]
+}

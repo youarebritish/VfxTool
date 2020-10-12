@@ -1,0 +1,94 @@
+{
+  "name": "FxTrailShapeNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownVector0",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint2",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownUint3",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint4",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownVector1",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector2",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownUint5",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint6",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool3",
+      "type": "bool"
+    },
+    {
+      "name": "unknownUint7",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool4",
+      "type": "bool"
+    },
+    {
+      "name": "unknownUint8",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint9",
+      "type": "uint32"
+    }
+  ]
+}

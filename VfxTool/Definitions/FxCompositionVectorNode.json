@@ -1,0 +1,26 @@
+{
+  "name": "FxCompositionVectorNode",
+  "properties":
+  [
+    {
+      "name": "maskValue",
+      "type": "float"
+    },
+    {
+      "name": "secondMaskW",
+      "type": "bool"
+    },
+    {
+      "name": "secondMaskX",
+      "type": "bool"
+    },
+        {
+      "name": "secondMaskY",
+      "type": "bool"
+    },
+        {
+      "name": "secondMaskZ",
+      "type": "bool"
+    }
+  ]
+}

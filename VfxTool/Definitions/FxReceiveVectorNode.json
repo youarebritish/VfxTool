@@ -1,0 +1,46 @@
+{
+  "name": "FxReceiveVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownVector0",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool3",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool4",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool5",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool6",
+      "type": "bool"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    }
+  ]
+}

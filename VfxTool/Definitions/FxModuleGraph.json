@@ -1,0 +1,50 @@
+{
+  "name": "FxModuleGraph",
+  "properties":
+  [
+    {
+      "name": "allFrame",
+      "type": "uint32"
+    },
+    {
+      "name": "boundingBoxOffsetPos",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxOffsetSize",
+      "type": "Vector4"
+    },
+	{
+	  "name": "boundingBoxType",
+	  "type": "int"
+	},
+	{
+	  "name": "debugInfo",
+	  "type": "bool"
+	},
+	{
+	  "name": "effectName",
+	  "type": "uint64"
+	},
+	{
+	  "name": "executionPriorityType",
+	  "type": "int"
+	},
+	{
+	  "name": "fadeInEndFrame",
+	  "type": "uint32"
+	},
+	{
+	  "name": "fadeOutStartFrame",
+	  "type": "uint32"
+	},
+	{
+	  "name": "playMode",
+	  "type": "int"
+	},
+	{
+	  "name": "updateType",
+	  "type": "int"
+	}
+  ]
+}

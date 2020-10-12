@@ -1,0 +1,78 @@
+{
+  "name": "FxDynamicLuminanceMaterialNode",
+  "properties": 
+  [
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint2",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint3",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat5",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint5",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint6",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool3",
+      "type": "bool"
+    },
+    {
+      "name": "unknownString1",
+      "type": "string"
+    }
+  ]
+}

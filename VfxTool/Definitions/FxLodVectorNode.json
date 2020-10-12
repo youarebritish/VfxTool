@@ -1,0 +1,26 @@
+{
+  "name": "FxLoDVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    }
+  ]
+}

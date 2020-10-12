@@ -1,0 +1,26 @@
+{
+  "name": "FxUVMapVectorNode",
+  "properties": 
+  [
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownVector0",
+      "type": "Vector4"
+    }
+  ]
+}

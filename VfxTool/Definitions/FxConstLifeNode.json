@@ -1,0 +1,10 @@
+{
+  "name": "FxConstLifeNode",
+  "properties":
+  [
+    {
+      "name": "lifeFrame",
+      "type": "uint32"
+    }
+  ]
+}

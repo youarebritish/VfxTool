@@ -1,0 +1,10 @@
+{
+  "name": "FxColorVectorNode",
+  "properties":
+  [
+    {
+      "name": "color",
+      "type": "Vector4"
+    }
+  ]
+}
