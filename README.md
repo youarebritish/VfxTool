@@ -12,3 +12,7 @@ The Definitions folder contains JSON metadata defining each node type. These tel
 Fortunately, the format of VFX nodes is very regular and documented here: https://metalgearmodding.fandom.com/wiki/VFX#Nodes
 
 If you have any corrections or new node definitions, please feel free to submit them so other users can make use of them. Currently, there are definitions for almost half of the known node types.
+
+## Credits
+* Joey for help with reversing the .VFX format.
+* OldBoss for transcribing the wiki's VFX node data into JSON files
