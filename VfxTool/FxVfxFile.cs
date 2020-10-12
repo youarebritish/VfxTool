@@ -14,14 +14,17 @@ namespace VfxTool
         private readonly IList<FxVfxNode> nodes = new List<FxVfxNode>();
         private readonly IList<FxModuleEdge> edges = new List<FxModuleEdge>();
         private readonly IDictionary<ulong, FxVfxNodeDefinition> definitions;
+        private string filename;
 
         public FxVfxFile(IDictionary<ulong, FxVfxNodeDefinition> definitions)
         {
             this.definitions = definitions;
         }
 
-        public void Read(BinaryReader reader)
+        public bool Read(BinaryReader reader, string filename)
         {
+            this.filename = filename;
+
             var signature = reader.ReadChars(3);
             var version = reader.ReadUInt16();
 
@@ -37,13 +40,18 @@ namespace VfxTool
 
             for(var i = 0; i < nodeCount; i++)
             {
-                TryReadNode(reader, definitions);
+                if (!TryReadNode(reader, definitions))
+                {
+                    return false;
+                }
             }
 
             for (var i = 0; i < edgeCount; i++)
             {
                 ReadEdge(reader);
             }
+
+            return true;
         }
 
         public void Write(BinaryWriter writer)
@@ -70,17 +78,19 @@ namespace VfxTool
             }
         }
 
-        private void TryReadNode(BinaryReader reader, IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        private bool TryReadNode(BinaryReader reader, IDictionary<ulong, FxVfxNodeDefinition> definitions)
         {
             var hash = reader.ReadUInt64();
             if (!definitions.ContainsKey(hash))
             {
-                throw new IOException($"Unsupported node type {hash} encountered at offset {reader.BaseStream.Position - 8}");
+                Console.WriteLine($"[{this.filename}] Unsupported node type {hash} encountered at offset {reader.BaseStream.Position - 8}");
+                return false;
             }
 
             var definition = definitions[hash];
             var node = FxVfxNode.Read(reader, definition);
             nodes.Add(node);
+            return true;
         }
 
         private void ReadEdge(BinaryReader reader)

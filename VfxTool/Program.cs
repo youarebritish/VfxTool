@@ -33,11 +33,10 @@ namespace VfxTool
                 else if (fileExtension.Equals(".vfx", StringComparison.OrdinalIgnoreCase))
                 {
                     var vfx = ReadFromBinary(path, definitions);
-                    WriteToXml(vfx, Path.GetFileNameWithoutExtension(path) + ".vfx.xml");
-                }
-                else
-                {
-                    throw new IOException("Unrecognized input type.");
+                    if (vfx != null)
+                    {
+                        WriteToXml(vfx, Path.GetFileNameWithoutExtension(path) + ".vfx.xml");
+                    }
                 }
             }
         }
@@ -54,10 +53,13 @@ namespace VfxTool
             var vfx = new FxVfxFile(definitions);
             using (var reader = new BinaryReader(new FileStream(path, FileMode.Open)))
             {
-                vfx.Read(reader);
+                if (vfx.Read(reader, Path.GetFileNameWithoutExtension(path)))
+                {
+                    return vfx;
+                }
             }
 
-            return vfx;
+            return null;
         }
 
         public static FxVfxFile ReadFromXml(string path, IDictionary<ulong, FxVfxNodeDefinition> definitions)
