@@ -1,0 +1,46 @@
+{
+  "name": "FxModelShapeNode",
+  "properties":
+  [
+    {
+      "name": "unknownVector1",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownInt1",
+      "type": "int32"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownVector2",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector3",
+      "type": "Vector4"
+    },
+    {
+      "name": "probablyAFileHash",
+      "type": "uint64"
+    },
+    {
+      "name": "unknownInt2",
+      "type": "int32"
+    },
+  ]
+}

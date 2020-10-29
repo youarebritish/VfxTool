@@ -36,11 +36,17 @@ namespace VfxTool
             this.nodeCount = reader.ReadUInt16();
             this.edgeCount = reader.ReadUInt16();
 
+            if (Program.IsVerbose)
+            {
+                Console.WriteLine($"Node count: {this.nodeCount}");
+                Console.WriteLine($"Edge count: {this.edgeCount}");
+            }
+
             reader.BaseStream.Position += 6;
 
             for(var i = 0; i < nodeCount; i++)
             {
-                if (!TryReadNode(reader, definitions))
+                if (!TryReadNode(reader, i, definitions))
                 {
                     return false;
                 }
@@ -78,7 +84,7 @@ namespace VfxTool
             }
         }
 
-        private bool TryReadNode(BinaryReader reader, IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        private bool TryReadNode(BinaryReader reader, int index, IDictionary<ulong, FxVfxNodeDefinition> definitions)
         {
             var hash = reader.ReadUInt64();
             if (!definitions.ContainsKey(hash))
@@ -92,7 +98,7 @@ namespace VfxTool
             if (Program.IsVerbose)
             {
                 Console.WriteLine("---");
-                Console.WriteLine($"Reading node {definition.name} at {reader.BaseStream.Position - 8}");
+                Console.WriteLine($"Reading node #{index} ({definition.name}) at {reader.BaseStream.Position - 8}");
                 Console.WriteLine("---");
             }
 

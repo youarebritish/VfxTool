@@ -1,0 +1,94 @@
+{
+  "name": "TppCameraShakeProgramEffectNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownInt1",
+      "type": "int32"
+    },
+    {
+      "name": "unknownInt2",
+      "type": "int32"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownString1",
+      "type": "string"
+    },
+    {
+      "name": "unknownVector1",
+      "type": "Vector3"
+    },
+    {
+      "name": "unknownVector2",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownInt3",
+      "type": "int32"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool3",
+      "type": "bool"
+    },	
+    {
+      "name": "unknownBool4",
+      "type": "bool"
+    },
+    {
+      "name": "unknownVector3",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector4",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownInt4",
+      "type": "int32"
+    },
+    {
+      "name": "unknownBool5",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool6",
+      "type": "bool"
+    },
+    {
+      "name": "unknownInt5",
+      "type": "int32"
+    },
+    {
+      "name": "unknownFloat5",
+      "type": "float"
+    },
+  ]
+}

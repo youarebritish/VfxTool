@@ -63,11 +63,15 @@
       "type": "uint32"
     },
     {
-      "name": "unknownBool2",
-      "type": "bool"
+      "name": "unknownInt2",
+      "type": "int32"
     },
     {
       "name": "unknownBool3",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool4",
       "type": "bool"
     },
     {

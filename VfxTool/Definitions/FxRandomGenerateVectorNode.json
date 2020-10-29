@@ -1,0 +1,34 @@
+{
+  "name": "FxRandomGenerateVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+	{
+      "name": "unknownInt1",
+      "type": "int32"
+    },
+	{
+      "name": "unknownInt2",
+      "type": "int32"
+    },
+	{
+      "name": "unknownVector2",
+      "type": "Vector4"
+    },
+	{
+      "name": "unknownVector3",
+      "type": "Vector4"
+    },
+	{
+      "name": "unknownInt3",
+      "type": "int32"
+    },
+	{
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+  ]
+}

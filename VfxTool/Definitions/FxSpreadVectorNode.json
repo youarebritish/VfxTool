@@ -1,0 +1,50 @@
+{
+  "name": "FxSpreadVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownInt1",
+      "type": "int32"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool3",
+      "type": "bool"
+    },
+    {
+      "name": "unknownInt2",
+      "type": "int32"
+    },
+    {
+      "name": "unknownInt3",
+      "type": "int32"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    },
+    {
+      "name": "unknownVector",
+      "type": "Vector4"
+    },
+  ]
+}

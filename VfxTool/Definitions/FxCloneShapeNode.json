@@ -1,0 +1,42 @@
+{
+  "name": "FxCloneShapeNode",
+  "properties":
+  [
+    {
+      "name": "unknownVector1",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownInt1",
+      "type": "int"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool3",
+      "type": "bool"
+    },
+    {
+      "name": "unknownVector2",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector3",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownUInt64",
+      "type": "uint64"
+    },
+    {
+      "name": "unknownInt2",
+      "type": "int"
+    }
+  ]
+}
