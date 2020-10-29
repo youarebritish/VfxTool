@@ -32,10 +32,10 @@ namespace LbaTool
 
         public void ReadXml(XmlReader reader)
         {
-            X = float.Parse(reader["x"]);
-            Y = float.Parse(reader["y"]);
-            Z = float.Parse(reader["z"]);
-            W = float.Parse(reader["w"]);
+            X = VfxTool.Extensions.ParseFloatRoundtrip(reader["x"]);
+            Y = VfxTool.Extensions.ParseFloatRoundtrip(reader["y"]);
+            Z = VfxTool.Extensions.ParseFloatRoundtrip(reader["z"]);
+            W = VfxTool.Extensions.ParseFloatRoundtrip(reader["w"]);
         }
 
         public void WriteXml(XmlWriter writer)

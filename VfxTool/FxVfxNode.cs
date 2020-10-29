@@ -120,10 +120,10 @@ namespace VfxTool
                     writer.Write(ulong.Parse(str));
                     return;
                 case "float":
-                    writer.Write(float.Parse(str));
+                    writer.Write(VfxTool.Extensions.ParseFloatRoundtrip(str));
                     return;
                 case "double":
-                    writer.Write(double.Parse(str));
+                    writer.Write(VfxTool.Extensions.ParseDoubleRoundtrip(str));
                     return;
                 case "bool":
                     writer.Write(ParseBool(str));
@@ -211,7 +211,6 @@ namespace VfxTool
         public void ReadXml(XmlReader reader)
         {
             reader.ReadStartElement("node");
-
             if (this.definition.properties.Count == 0)
             {
                 return;
