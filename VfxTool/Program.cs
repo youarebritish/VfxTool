@@ -13,12 +13,22 @@ namespace VfxTool
     internal static class Program
     {
         private const string NodeDefinitionsPath = "/Definitions/";
+        public static bool IsVerbose;
 
         private static void Main(string[] args)
         {
             var directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var definitions = ReadDefinitions(directory + NodeDefinitionsPath);
             var shouldKeepWindowOpen = false;
+
+            foreach(var arg in args)
+            {
+                if (arg == "-verbose")
+                {
+                    IsVerbose = true;
+                    break;
+                }
+            }
 
             foreach (var path in args)
             {

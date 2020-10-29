@@ -83,12 +83,25 @@ namespace VfxTool
             var hash = reader.ReadUInt64();
             if (!definitions.ContainsKey(hash))
             {
+                Console.WriteLine("---");
                 Console.WriteLine($"[{this.filename}] Unsupported node type {hash} encountered at offset {reader.BaseStream.Position - 8}");
                 return false;
             }
 
             var definition = definitions[hash];
+            if (Program.IsVerbose)
+            {
+                Console.WriteLine("---");
+                Console.WriteLine($"Reading node {definition.name} at {reader.BaseStream.Position - 8}");
+                Console.WriteLine("---");
+            }
+
             var node = FxVfxNode.Read(reader, definition);
+            if (Program.IsVerbose)
+            {
+                Console.WriteLine($"Finished {definition.name} at {reader.BaseStream.Position}");
+            }
+
             nodes.Add(node);
             return true;
         }

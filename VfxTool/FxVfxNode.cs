@@ -47,6 +47,11 @@ namespace VfxTool
                 node.properties.Add(property.name, values);
 
                 var arraySize = reader.ReadByte();
+                if (Program.IsVerbose)
+                {
+                    Console.WriteLine($"Reading {property.name} ({arraySize}) at {reader.BaseStream.Position - 1}");
+                }
+
                 for(var i = 0; i < arraySize; i++)
                 {
                     values.Add(ReadValue(reader, property.type));
@@ -179,8 +184,18 @@ namespace VfxTool
                     return Vector4.Read(reader);
                 case "string":
                     var size = reader.ReadUInt16();
+                    if (Program.IsVerbose)
+                    {
+                        Console.WriteLine($"String length: {size}");
+                    }
+
                     var str = new string(reader.ReadChars(size));
                     reader.ReadChar();
+
+                    if (Program.IsVerbose)
+                    {
+                        Console.WriteLine($"String: {str}");
+                    }
 
                     return str;
                 default:
