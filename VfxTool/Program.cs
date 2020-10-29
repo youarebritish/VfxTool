@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Xml;
 
@@ -11,11 +12,12 @@ namespace VfxTool
 {
     internal static class Program
     {
-        private const string NodeDefinitionsPath = "Definitions/";
+        private const string NodeDefinitionsPath = "/Definitions/";
 
         private static void Main(string[] args)
         {
-            var definitions = ReadDefinitions(NodeDefinitionsPath);
+            var directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var definitions = ReadDefinitions(directory + NodeDefinitionsPath);
             var shouldKeepWindowOpen = false;
 
             foreach (var path in args)
