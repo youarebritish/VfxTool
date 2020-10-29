@@ -16,6 +16,7 @@ namespace VfxTool
         private static void Main(string[] args)
         {
             var definitions = ReadDefinitions(NodeDefinitionsPath);
+            var shouldKeepWindowOpen = false;
 
             foreach (var path in args)
             {
@@ -36,8 +37,16 @@ namespace VfxTool
                     if (vfx != null)
                     {
                         WriteToXml(vfx, Path.GetFileNameWithoutExtension(path) + ".vfx.xml");
+                        continue;
                     }
+
+                    shouldKeepWindowOpen = true;
                 }
+            }
+
+            if (shouldKeepWindowOpen)
+            {
+                Console.ReadLine();
             }
         }
 
