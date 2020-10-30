@@ -208,6 +208,14 @@ namespace VfxTool
             writer.WriteStartDocument();
             writer.WriteStartElement("vfx");
 
+            var versionString = "TPP";
+            if (this.version == Version.Gz)
+            {
+                versionString = "GZ";
+            }
+
+            writer.WriteAttributeString("version", versionString);
+
             writer.WriteStartElement("nodes");
             foreach (var node in nodes)
             {
