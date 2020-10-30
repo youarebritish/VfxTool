@@ -9,23 +9,40 @@ namespace VfxTool
 {
     public class FxVfxFile : IXmlSerializable
     {
+        private IDictionary<ulong, FxVfxNodeDefinition> Definitions
+        {
+            get
+            {
+                if (this.version == Version.Gz)
+                {
+                    return this.gzDefinitions;
+                }
+                else
+                {
+                    return this.tppDefinitions;
+                }
+            }
+        }
+
         private ushort nodeCount;
         private ushort edgeCount;
         private readonly IList<FxVfxNode> nodes = new List<FxVfxNode>();
         private readonly IList<FxModuleEdge> edges = new List<FxModuleEdge>();
-        private readonly IDictionary<ulong, FxVfxNodeDefinition> definitions;
+        private readonly IDictionary<ulong, FxVfxNodeDefinition> tppDefinitions;
+        private readonly IDictionary<ulong, FxVfxNodeDefinition> gzDefinitions;
         private string filename;
         private Version version;
 
         public enum Version
         {
-            Gz = 1,
+            Gz = 0,
             Tpp = 2
         }
 
-        public FxVfxFile(IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        public FxVfxFile(IDictionary<ulong, FxVfxNodeDefinition> tppDefinitions, IDictionary<ulong, FxVfxNodeDefinition> gzDefinitions)
         {
-            this.definitions = definitions;
+            this.tppDefinitions = tppDefinitions;
+            this.gzDefinitions = gzDefinitions;
         }
 
         public bool Read(BinaryReader reader, string filename)
@@ -37,11 +54,12 @@ namespace VfxTool
             this.nodeCount = reader.ReadUInt16();
             this.edgeCount = reader.ReadUInt16();
 
-            // TODO: Get GZ definitions
+            // TODO: Write/Read version to XML
             // TODO: Figure out how to handle GZ hashes
 
             if (Program.IsVerbose)
             {
+                Console.WriteLine($"Version: {this.version}");
                 Console.WriteLine($"Node count: {this.nodeCount}");
                 Console.WriteLine($"Edge count: {this.edgeCount}");
             }
@@ -50,7 +68,7 @@ namespace VfxTool
 
             for (var i = 0; i < nodeCount; i++)
             {
-                if (!TryReadNode(reader, i, definitions))
+                if (!TryReadNode(reader, i, this.Definitions))
                 {
                     return false;
                 }
@@ -143,12 +161,12 @@ namespace VfxTool
                 var type = reader.GetAttribute("class");
                 var typeHash = Program.HashString(type);
 
-                if (!this.definitions.ContainsKey(typeHash))
+                if (!this.Definitions.ContainsKey(typeHash))
                 {
                     throw new FormatException($"Unrecognized node type {type}");
                 }
 
-                var definition = this.definitions[typeHash];
+                var definition = this.Definitions[typeHash];
                 var node = FxVfxNode.FromTemplate(definition);
                 node.ReadXml(reader);
 

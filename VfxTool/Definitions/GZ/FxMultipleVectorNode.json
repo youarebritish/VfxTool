@@ -1,0 +1,22 @@
+{
+  "name": "FxMultipleVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownVector40",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    },
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    }
+  ]
+}

@@ -44,12 +44,12 @@ namespace VfxTool
                 var fileExtension = Path.GetExtension(path);
                 if (fileExtension.Equals(".xml", StringComparison.OrdinalIgnoreCase))
                 {
-                    var vfx = ReadFromXml(path, tppDefinitions);
+                    var vfx = ReadFromXml(path, tppDefinitions, gzDefinitions);
                     WriteToBinary(vfx, Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(path)) + ".vfx");
                 }
                 else if (fileExtension.Equals(".vfx", StringComparison.OrdinalIgnoreCase))
                 {
-                    var vfx = ReadFromBinary(path, tppDefinitions);
+                    var vfx = ReadFromBinary(path, tppDefinitions, gzDefinitions);
                     if (vfx != null)
                     {
                         WriteToXml(vfx, Path.GetFileNameWithoutExtension(path) + ".vfx.xml");
@@ -73,9 +73,9 @@ namespace VfxTool
                    .ToDictionary(definition => HashString(definition.name), definition => definition);
         }
 
-        private static FxVfxFile ReadFromBinary(string path, IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        private static FxVfxFile ReadFromBinary(string path, IDictionary<ulong, FxVfxNodeDefinition> tppDefinitions, IDictionary<ulong, FxVfxNodeDefinition> gzDefinitions)
         {
-            var vfx = new FxVfxFile(definitions);
+            var vfx = new FxVfxFile(tppDefinitions, gzDefinitions);
             using (var reader = new BinaryReader(new FileStream(path, FileMode.Open)))
             {
                 if (vfx.Read(reader, Path.GetFileNameWithoutExtension(path)))
@@ -87,14 +87,14 @@ namespace VfxTool
             return null;
         }
 
-        public static FxVfxFile ReadFromXml(string path, IDictionary<ulong, FxVfxNodeDefinition> definitions)
+        public static FxVfxFile ReadFromXml(string path, IDictionary<ulong, FxVfxNodeDefinition> tppDefinitions, IDictionary<ulong, FxVfxNodeDefinition> gzDefinitions)
         {
             var xmlReaderSettings = new XmlReaderSettings
             {
                 IgnoreWhitespace = true
             };
 
-            var vfx = new FxVfxFile(definitions);
+            var vfx = new FxVfxFile(tppDefinitions, gzDefinitions);
             using (var reader = XmlReader.Create(path, xmlReaderSettings))
             {
                 vfx.ReadXml(reader);

@@ -62,16 +62,43 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Definitions\GZ\FxColorVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Definitions\GZ\FxCompositionVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\GZ\FxConstantMaterialNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\GZ\FxConstLifeNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\GZ\FxConstVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\GZ\FxFirstLoopOnlyEmitNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Definitions\GZ\FxInfinityLifeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Definitions\GZ\FxIntervalProbabilityEmitNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Definitions\GZ\FxModuleGraph.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Definitions\GZ\FxMultipleVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\GZ\FxPlaneShapeNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Definitions\GZ\FxUpdateSleepControlNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\GZ\FxUVMapVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Definitions\TPP\FxCameraAngleVectorNode.json">
