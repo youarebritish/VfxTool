@@ -45,7 +45,13 @@ namespace VfxTool
                 if (fileExtension.Equals(".xml", StringComparison.OrdinalIgnoreCase))
                 {
                     var vfx = ReadFromXml(path, tppDefinitions, gzDefinitions);
-                    WriteToBinary(vfx, Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(path)) + ".vfx");
+                    if (vfx != null)
+                    {
+                        WriteToBinary(vfx, Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(path)) + ".vfx");
+                        continue;
+                    }
+
+                    shouldKeepWindowOpen = true;
                 }
                 else if (fileExtension.Equals(".vfx", StringComparison.OrdinalIgnoreCase))
                 {
@@ -97,7 +103,11 @@ namespace VfxTool
             var vfx = new FxVfxFile(tppDefinitions, gzDefinitions);
             using (var reader = XmlReader.Create(path, xmlReaderSettings))
             {
-                vfx.ReadXml(reader);
+                var success = vfx.ReadXml(reader);
+                if (!success)
+                {
+                    return null;
+                }
             }
 
             return vfx;

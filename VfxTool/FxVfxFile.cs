@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace VfxTool
 {
-    public class FxVfxFile : IXmlSerializable
+    public class FxVfxFile
     {
         private IDictionary<ulong, FxVfxNodeDefinition> Definitions
         {
@@ -87,7 +87,7 @@ namespace VfxTool
             writer.Write('v');
             writer.Write('f');
             writer.Write('x');
-            writer.Write((ushort)2);
+            writer.Write((ushort)this.version);
 
             writer.Write((ushort)this.nodes.Count);
             writer.Write((ushort)this.edges.Count);
@@ -145,9 +145,27 @@ namespace VfxTool
             return null;
         }
 
-        public void ReadXml(XmlReader reader)
+        public bool ReadXml(XmlReader reader)
         {
             reader.Read();
+            reader.ReadToFollowing("vfx");
+            reader.MoveToAttribute("version");
+
+            var version = reader.Value;
+            if (version == "GZ")
+            {
+                this.version = Version.Gz;
+            }
+            else if (version == "TPP")
+            {
+                this.version = Version.Tpp;
+            }
+            else
+            {
+                Console.WriteLine("No valid version specified. Add a version attribute to the <vfx> node with a value of GZ or TPP.");
+                return false;
+            }
+
             reader.ReadStartElement("vfx");
             reader.ReadStartElement("nodes");
 
@@ -181,6 +199,8 @@ namespace VfxTool
                 edge.ReadXml(reader);
                 this.edges.Add(edge);
             }
+
+            return true;
         }
 
         public void WriteXml(XmlWriter writer)
