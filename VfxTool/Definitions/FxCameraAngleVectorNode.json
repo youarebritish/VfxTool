@@ -1,0 +1,14 @@
+{
+  "name": "FxCameraAngleVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool",
+      "type": "bool"
+    },
+  ]
+}

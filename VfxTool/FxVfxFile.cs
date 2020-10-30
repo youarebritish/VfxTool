@@ -16,6 +16,12 @@ namespace VfxTool
         private readonly IDictionary<ulong, FxVfxNodeDefinition> definitions;
         private string filename;
 
+        public enum Version
+        {
+            Gz = 1,
+            Tpp = 2
+        }
+
         public FxVfxFile(IDictionary<ulong, FxVfxNodeDefinition> definitions)
         {
             this.definitions = definitions;

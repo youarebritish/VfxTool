@@ -1,0 +1,74 @@
+{
+  "name": "TppWeatherScrollAnimationMaterialNode",
+  "properties":
+  [
+    {
+      "name": "unknownInt0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownInt1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat5",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat7",
+      "type": "float"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    },
+    {
+      "name": "unknownInt2",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat8",
+      "type": "float"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    },
+    {
+      "name": "unknownInt3",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat9",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat10",
+      "type": "float"
+    },
+  ]
+}
