@@ -13,12 +13,16 @@ namespace VfxTool
     internal static class Program
     {
         private const string NodeDefinitionsPath = "/Definitions/";
+        private const string TppDefinitionsPath = "TPP/";
+        private const string GzDefinitionsPath = "GZ/";
+
         public static bool IsVerbose;
 
         private static void Main(string[] args)
         {
             var directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var definitions = ReadDefinitions(directory + NodeDefinitionsPath);
+            var tppDefinitions = ReadDefinitions(directory + NodeDefinitionsPath + TppDefinitionsPath);
+            var gzDefinitions = ReadDefinitions(directory + NodeDefinitionsPath + GzDefinitionsPath);
             var shouldKeepWindowOpen = false;
 
             foreach(var arg in args)
@@ -40,12 +44,12 @@ namespace VfxTool
                 var fileExtension = Path.GetExtension(path);
                 if (fileExtension.Equals(".xml", StringComparison.OrdinalIgnoreCase))
                 {
-                    var vfx = ReadFromXml(path, definitions);
+                    var vfx = ReadFromXml(path, tppDefinitions);
                     WriteToBinary(vfx, Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(path)) + ".vfx");
                 }
                 else if (fileExtension.Equals(".vfx", StringComparison.OrdinalIgnoreCase))
                 {
-                    var vfx = ReadFromBinary(path, definitions);
+                    var vfx = ReadFromBinary(path, tppDefinitions);
                     if (vfx != null)
                     {
                         WriteToXml(vfx, Path.GetFileNameWithoutExtension(path) + ".vfx.xml");

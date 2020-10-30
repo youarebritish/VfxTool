@@ -15,6 +15,7 @@ namespace VfxTool
         private readonly IList<FxModuleEdge> edges = new List<FxModuleEdge>();
         private readonly IDictionary<ulong, FxVfxNodeDefinition> definitions;
         private string filename;
+        private Version version;
 
         public enum Version
         {
@@ -32,15 +33,12 @@ namespace VfxTool
             this.filename = filename;
 
             var signature = reader.ReadChars(3);
-            var version = reader.ReadUInt16();
-
-            if (version != 2)
-            {
-                Console.WriteLine("Unexpected version (" + version + "). Results may be unpredictable.");
-            }
-
+            this.version = (Version)reader.ReadUInt16();
             this.nodeCount = reader.ReadUInt16();
             this.edgeCount = reader.ReadUInt16();
+
+            // TODO: Get GZ definitions
+            // TODO: Figure out how to handle GZ hashes
 
             if (Program.IsVerbose)
             {
@@ -50,7 +48,7 @@ namespace VfxTool
 
             reader.BaseStream.Position += 6;
 
-            for(var i = 0; i < nodeCount; i++)
+            for (var i = 0; i < nodeCount; i++)
             {
                 if (!TryReadNode(reader, i, definitions))
                 {

@@ -62,133 +62,182 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Definitions\FxCameraCorrectionVectorNode.json">
+    <None Include="Definitions\GZ\FxCompositionVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxCameraFollowVectorNode.json">
+    <None Include="Definitions\GZ\FxInfinityLifeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxCenterScrollVectorNode.json">
+    <None Include="Definitions\GZ\FxModuleGraph.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxColorVectorNode.json">
+    <None Include="Definitions\GZ\FxUpdateSleepControlNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxCompositionVectorNode.json">
+    <None Include="Definitions\TPP\FxCameraAngleVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxConstLifeNode.json">
+    <None Include="Definitions\TPP\FxCameraCorrectionMaterialNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxConstVectorNode.json">
+    <None Include="Definitions\TPP\FxCameraCorrectionVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxDelayNumEmitNode.json">
+    <None Include="Definitions\TPP\FxCameraFollowVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxDragTimeVectorNode.json">
+    <None Include="Definitions\TPP\FxCenterScrollVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxDynamicLuminanceMaterialNode.json">
+    <None Include="Definitions\TPP\FxCloneShapeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxFirstLoopOnlyEmitNode.json">
+    <None Include="Definitions\TPP\FxColorVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxInfinityLifeNode.json">
+    <None Include="Definitions\TPP\FxCompositionVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxIntervalProbabilityEmitNode.json">
+    <None Include="Definitions\TPP\FxConstantMaterialNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxKeyframeVectorNode.json">
+    <None Include="Definitions\TPP\FxConstLifeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxLightInfluenceMaterialNode.json">
+    <None Include="Definitions\TPP\FxConstVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxLodVectorNode.json">
+    <None Include="Definitions\TPP\FxDelayNumEmitNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxModuleGraph.json">
+    <None Include="Definitions\TPP\FxDragTimeVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxMultiplyVectorNode.json">
+    <None Include="Definitions\TPP\FxDynamicLuminanceMaterialNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxOscillateVector2Node.json">
+    <None Include="Definitions\TPP\FxFirstLoopOnlyEmitNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxPlaneRotShapeNode.json">
+    <None Include="Definitions\TPP\FxInfinityLifeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxPointLightShapeNode.json">
+    <None Include="Definitions\TPP\FxIntervalProbabilityEmitNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxPoolVectorNode.json">
+    <None Include="Definitions\TPP\FxKeyframeVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxRandomLifeNode.json">
+    <None Include="Definitions\TPP\FxLightInfluenceMaterialNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxRandomVectorNode.json">
+    <None Include="Definitions\TPP\FxLodVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxReceiveVectorNode.json">
+    <None Include="Definitions\TPP\FxModelShapeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxSoundCallProgramEffectNode.json">
+    <None Include="Definitions\TPP\FxModuleGraph.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxSpotLightShapeNode.json">
+    <None Include="Definitions\TPP\FxMultipleVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxSpriteRotShapeNode.json">
+    <None Include="Definitions\TPP\FxMultiplyVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxSpriteShapeNode.json">
+    <None Include="Definitions\TPP\FxOscillateVector2Node.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxTimeScaleVectorNode.json">
+    <None Include="Definitions\TPP\FxPlaneRotShapeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxTrailShapeNode.json">
+    <None Include="Definitions\TPP\FxPlaneShapeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxUniformAccelTimeVectorNode.json">
+    <None Include="Definitions\TPP\FxPointLightShapeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxUniformAccelVectorNode.json">
+    <None Include="Definitions\TPP\FxPoolVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxUniformVelocityTimeVectorNode.json">
+    <None Include="Definitions\TPP\FxRandomGenerateVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxUniformVelocityVectorNode.json">
+    <None Include="Definitions\TPP\FxRandomLifeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxUVAnimeIntervalVectorNode.json">
+    <None Include="Definitions\TPP\FxRandomVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxUVMapRandomVectorNode.json">
+    <None Include="Definitions\TPP\FxReceiveVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\FxUVMapVectorNode.json">
+    <None Include="Definitions\TPP\FxSoundCallProgramEffectNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\TppLensFlareProgramEffectNode.json">
+    <None Include="Definitions\TPP\FxSpotLightShapeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\TppLensFlareShapeNode.json">
+    <None Include="Definitions\TPP\FxSpreadVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\TppLightProbeProgramEffectNode.json">
+    <None Include="Definitions\TPP\FxSpriteRotShapeNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Definitions\WindFxVectorNode.json">
+    <None Include="Definitions\TPP\FxSpriteShapeNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxTimeScaleVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxTrailShapeNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUniformAccelTimeVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUniformAccelVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUniformVelocityTimeVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUniformVelocityVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUpdateSleepControlNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUVAnimeIntervalVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUVMapRandomVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\FxUVMapVectorNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\TppCameraShakeProgramEffectNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\TppLensFlareProgramEffectNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\TppLensFlareShapeNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\TppLightProbeProgramEffectNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\TppWeatherScrollAnimationMaterialNode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Definitions\TPP\WindFxVectorNode.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
