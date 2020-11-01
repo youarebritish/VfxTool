@@ -1,0 +1,114 @@
+{
+  "name": "FxCameraCorrectionMaterialNode",
+  "properties":
+  [
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat5",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat7",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat8",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat9",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat10",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat11",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat12",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat13",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat14",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat15",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat16",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat17",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat18",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint2",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat19",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat20",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint3",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat21",
+      "type": "float"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    },
+  ]
+}

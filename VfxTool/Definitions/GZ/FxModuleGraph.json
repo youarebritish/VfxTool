@@ -27,10 +27,6 @@
 	  "type": "uint64"
 	},
 	{
-	  "name": "executionPriorityType",
-	  "type": "int"
-	},
-	{
 	  "name": "fadeInEndFrame",
 	  "type": "uint32"
 	},
@@ -40,6 +36,10 @@
 	},
 	{
 	  "name": "playMode",
+	  "type": "int"
+	},
+	{
+	  "name": "updateType",
 	  "type": "int"
 	}
   ]

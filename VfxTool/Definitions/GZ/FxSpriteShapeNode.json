@@ -1,0 +1,54 @@
+{
+  "name": "FxSpriteShapeNode",
+  "properties":
+  [
+    {
+      "name": "unknownVector0",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownVector1",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector2",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint2",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint3",
+      "type": "uint32"
+    }
+  ]
+}

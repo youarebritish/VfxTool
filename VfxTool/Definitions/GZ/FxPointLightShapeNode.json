@@ -1,0 +1,94 @@
+{
+  "name": "FxPointLightShapeNode",
+  "properties": 
+  [
+    {
+      "name": "vector1",
+      "type": "Vector4"
+    },
+	{
+      "name": "bool1",
+      "type": "bool"
+    },
+	{
+      "name": "int1",
+      "type": "int"
+    },
+	{
+      "name": "bool2",
+      "type": "bool"
+    },
+	{
+      "name": "int2",
+      "type": "int"
+    },
+	{
+      "name": "bool3",
+      "type": "bool"
+    },
+	{
+      "name": "bool4",
+      "type": "bool"
+    },
+	{
+      "name": "bool5",
+      "type": "bool"
+    },
+    {
+      "name": "vector2",
+      "type": "Vector4"
+    },
+    {
+      "name": "vector3",
+      "type": "Vector4"
+    },
+    {
+      "name": "vector4",
+      "type": "Vector4"
+    },
+	{
+      "name": "bool6",
+      "type": "bool"
+    },
+	{
+      "name": "int3",
+      "type": "int"
+    },
+	{
+      "name": "int4",
+      "type": "int"
+    },
+	{
+      "name": "int5",
+      "type": "int"
+    },
+	{
+      "name": "int6",
+      "type": "int"
+    },
+	{
+      "name": "float1",
+      "type": "float"
+    },
+    {
+      "name": "vector5",
+      "type": "Vector4"
+    },
+    {
+      "name": "vector6",
+      "type": "Vector4"
+    },
+	{
+      "name": "int7",
+      "type": "int"
+    },
+	{
+      "name": "str1",
+      "type": "string"
+    },
+	{
+      "name": "int8",
+      "type": "int"
+    },
+  ]
+}

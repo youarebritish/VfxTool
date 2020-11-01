@@ -10,10 +10,6 @@
       "name": "delayFrameRandomRange",
       "type": "uint32"
     },
-    {
-      "name": "emitVersion",
-      "type": "float"
-    },
 	{
 	  "name": "fadeOutPosition",
 	  "type": "float"

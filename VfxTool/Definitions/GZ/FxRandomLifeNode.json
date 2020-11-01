@@ -1,0 +1,22 @@
+{
+  "name": "FxRandomLifeNode",
+  "properties": 
+  [
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+       "name": "unknownUint2",
+       "type": "uint32"
+    },
+    {
+      "name": "unknownUint3",
+      "type": "uint32"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name": "TppLiquidMaterial2Node",
+  "properties":
+  [
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint2",
+      "type": "uint32"
+    },
+	{
+      "name": "unknownString0",
+      "type": "string"
+	},
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownString1",
+      "type": "string"
+    },
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool1",
+      "type": "bool"
+    },
+    {
+      "name": "unknownUint3",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat5",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat5_1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_3",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_4",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_5",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_6",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_7",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_8",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool2",
+      "type": "bool"
+    },
+    {
+      "name": "unknownFloat6_81",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat6_9",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint7",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint8",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownBool3",
+      "type": "bool"
+    },
+    {
+      "name": "unknownBool4",
+      "type": "bool"
+    },
+    {
+      "name": "texturePath",
+      "type": "string"
+    },
+    {
+      "name": "unknownFloat7",
+      "type": "float"
+    }
+  ]
+}

@@ -11,10 +11,6 @@
       "type": "int"
     },
     {
-      "name": "bool1",
-      "type": "bool"
-    },
-    {
       "name": "unknownUInt640",		  
       "type": "uint64"
     },

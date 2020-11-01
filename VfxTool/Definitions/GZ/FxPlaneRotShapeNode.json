@@ -1,0 +1,78 @@
+{
+  "name": "FxPlaneRotShapeNode",
+  "properties": 
+  [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "axisFix",
+      "type": "int32"
+    },
+    {
+      "name": "axisFixParticleDirectionPoolName",
+      "type": "string"
+    },
+    {
+      "name": "baseRot",
+      "type": "Quaternion"
+    },
+    {
+      "name": "baseSizeScale",
+      "type": "float"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "int32"
+    },
+    {
+      "name": "CenterU",
+      "type": "float"
+    },
+    {
+      "name": "CenterV",
+      "type": "float"
+    },
+    {
+      "name": "cullFace", 
+      "type": "bool"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "rotGlobal",
+      "type": "bool"
+    },
+    {
+      "name": "rotateOrderType",
+      "type": "int32"
+    },
+    {
+      "name": "sortMode",
+      "type": "int32"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    }
+  ]
+}
