@@ -1,0 +1,12 @@
+{
+  "name": "FxGameTimeVectorNode",
+  "properties": [],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

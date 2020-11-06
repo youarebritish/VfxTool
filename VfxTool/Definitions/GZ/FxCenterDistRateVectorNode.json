@@ -1,0 +1,42 @@
+{
+  "name": "FxCenterDistRateVectorNode",
+  "properties": 
+  [
+    {
+      "name": "unknownInt8_0000",
+      "type": "int8"
+    },
+    {
+      "name": "unknownInt8_0010",
+      "type": "int8"
+    },
+    {
+      "name": "unknownInt8_0020",
+      "type": "int8"
+    },
+    {
+      "name": "unknownInt8_0030",
+      "type": "int8"
+    },
+    {
+      "name": "unknownVector4_0000",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector4_0010",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector4_0020",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector4_0030",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownString_0000",
+      "type": "string"
+    },
+  ]
+}

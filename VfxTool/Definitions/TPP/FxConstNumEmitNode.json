@@ -1,0 +1,11 @@
+{
+  "name": "FxConstNumEmitNode",
+  "properties": [
+    {
+      "name": "count",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
+}

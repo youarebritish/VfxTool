@@ -1,0 +1,18 @@
+{
+  "name": "WindFxVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownBool0",
+      "type": "bool"
+    },
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    }
+  ]
+}

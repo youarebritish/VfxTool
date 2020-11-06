@@ -1,0 +1,65 @@
+{
+  "name": "FxSoundCallShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "signalName",
+      "type": "string"
+    },
+    {
+      "name": "745085796",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
+  ]
+}

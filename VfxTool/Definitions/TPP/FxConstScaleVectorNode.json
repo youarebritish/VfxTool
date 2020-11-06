@@ -1,0 +1,39 @@
+{
+  "name": "FxConstScaleVectorNode",
+  "properties": [
+    {
+      "name": "maskW",
+      "type": "bool"
+    },
+    {
+      "name": "maskX",
+      "type": "bool"
+    },
+    {
+      "name": "maskY",
+      "type": "bool"
+    },
+    {
+      "name": "maskZ",
+      "type": "bool"
+    },
+    {
+      "name": "scale",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

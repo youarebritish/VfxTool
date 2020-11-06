@@ -1,82 +1,89 @@
 {
   "name": "FxDynamicLuminanceMaterialNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "unknownUint0",
+      "name": "blendType",
       "type": "uint32"
     },
     {
-      "name": "unknownUint1",
-      "type": "uint32"
+      "name": "cameraFadeInFar",
+      "type": "float"
     },
     {
-      "name": "unknownUint2",
-      "type": "uint32"
+      "name": "cameraFadeInNear",
+      "type": "float"
     },
     {
-      "name": "unknownUint3",
-      "type": "uint32"
+      "name": "cameraZOffset",
+      "type": "float"
     },
     {
-      "name": "unknownBool0",
+      "name": "732496415",
       "type": "bool"
     },
     {
-      "name": "unknownString0",
+      "name": "2863484390",
       "type": "string"
     },
     {
-      "name": "unknownFloat0",
+      "name": "maxExposure",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "4228448047",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "minExposure",
       "type": "float"
     },
     {
-      "name": "unknownFloat3",
+      "name": "2878798417",
       "type": "float"
     },
     {
-      "name": "unknownBool1",
+      "name": "opaque",
       "type": "bool"
     },
     {
-      "name": "unknownFloat4",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat5",
-      "type": "float"
-    },
-    {
-      "name": "unknownUint5",
+      "name": "shaderType",
       "type": "uint32"
     },
     {
-      "name": "unknownUint6",
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendFrame",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
       "type": "uint32"
     },
     {
-      "name": "unknownInt2",
-      "type": "int32"
+      "name": "textureAnimeBlendWidth",
+      "type": "uint32"
     },
     {
-      "name": "unknownBool3",
+      "name": "textureAnimeClamp",
       "type": "bool"
     },
     {
-      "name": "unknownBool4",
+      "name": "textureAnimeRandomStart",
       "type": "bool"
     },
     {
-      "name": "unknownString1",
+      "name": "textureFile",
       "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
     }
   ]
 }

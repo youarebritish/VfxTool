@@ -1,0 +1,26 @@
+{
+  "name": "FxAddPoolVectorNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint320",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    },
+  ]
+}

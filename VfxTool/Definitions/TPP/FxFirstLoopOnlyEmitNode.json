@@ -1,5 +1,18 @@
 {
   "name": "FxFirstLoopOnlyEmitNode",
-  "properties":
-  []
+  "properties": [],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Emit"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Emit"
+    }
+  ]
 }

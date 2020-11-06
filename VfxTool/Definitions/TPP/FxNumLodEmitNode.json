@@ -1,0 +1,51 @@
+{
+  "name": "FxNumLodEmitNode",
+  "properties": [
+    {
+      "name": "inverse",
+      "type": "bool"
+    },
+    {
+      "name": "3401109021",
+      "type": "float"
+    },
+    {
+      "name": "3156887810",
+      "type": "float"
+    },
+    {
+      "name": "3724899095",
+      "type": "float"
+    },
+    {
+      "name": "4216678575",
+      "type": "float"
+    },
+    {
+      "name": "lodDistance",
+      "type": "float"
+    },
+    {
+      "name": "4076737128",
+      "type": "uint32"
+    },
+    {
+      "name": "522692237",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Emit"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Emit"
+    }
+  ]
+}

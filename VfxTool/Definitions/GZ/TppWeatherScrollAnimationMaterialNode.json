@@ -63,15 +63,15 @@
       "type": "string"
     },
     {
-      "name": "unknownInt3",
-      "type": "uint32"
-    },
-    {
       "name": "unknownFloat10",
       "type": "float"
     },
     {
       "name": "unknownFloat11",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat12",
       "type": "float"
     },
   ]

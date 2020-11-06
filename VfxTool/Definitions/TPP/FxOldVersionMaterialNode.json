@@ -1,0 +1,47 @@
+{
+  "name": "FxOldVersionMaterialNode",
+  "properties": [
+    {
+      "name": "3724678669",
+      "type": "uint32"
+    },
+    {
+      "name": "2189661224",
+      "type": "Vector4"
+    },
+    {
+      "name": "521461604",
+      "type": "float"
+    },
+    {
+      "name": "4169950012",
+      "type": "float"
+    },
+    {
+      "name": "641919330",
+      "type": "float"
+    },
+    {
+      "name": "materialParameters",
+      "type": "Vector4"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
+}

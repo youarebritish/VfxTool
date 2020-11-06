@@ -1,0 +1,44 @@
+{
+  "name": "FxOscillateVectorNode",
+  "properties": [
+    {
+      "name": "amplitude",
+      "type": "Vector4"
+    },
+    {
+      "name": "frequency",
+      "type": "float"
+    },
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    },
+    {
+      "name": "randomize",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Vector"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

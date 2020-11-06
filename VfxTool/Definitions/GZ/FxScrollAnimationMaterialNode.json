@@ -1,0 +1,78 @@
+{
+  "name": "FxScrollAnimationMaterialNode",
+  "properties":
+  [
+    {
+      "name": "unknownUint0",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint1",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+	{
+      "name": "unknownFloat1",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat2",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat3",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat4",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat5",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat6",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat7",
+      "type": "float"
+	},
+	{
+      "name": "unknownString0",
+      "type": "string"
+	},
+	{
+      "name": "unknownFloat8",
+      "type": "float"
+	},
+    {
+      "name": "unknownUint2",
+      "type": "uint32"
+    },
+	{
+      "name": "unknownFloat9",
+      "type": "float"
+	},
+	{
+      "name": "texturePath",
+      "type": "string"
+	},
+	{
+      "name": "unknownFloat10",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat11",
+      "type": "float"
+	},
+	{
+      "name": "unknownFloat12",
+      "type": "float"
+	},
+  ]
+}

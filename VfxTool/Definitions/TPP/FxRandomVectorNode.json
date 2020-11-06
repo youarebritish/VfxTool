@@ -1,7 +1,6 @@
 {
   "name": "FxRandomVectorNode",
-  "properties":
-  [
+  "properties": [
     {
       "name": "force",
       "type": "float"
@@ -14,29 +13,37 @@
       "name": "globalEvaluateRealTimeRootRotate",
       "type": "bool"
     },
-	{
-	  "name": "randomGatherSeedValue",
-	  "type": "uint32"
-	},
-	{
-	  "name": "randomGatherType",
-	  "type": "int32"
-	},
-	{
-	  "name": "randomMax",
-	  "type": "Vector4"
-	},
-	{
-	  "name": "randomMin",
-	  "type": "Vector4"
-	},
-	{
-	  "name": "vectorType",
-	  "type": "int32"
-	},
-	{
-	  "name": "xySquere",
-	  "type": "bool"
-	}
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    },
+    {
+      "name": "randomMax",
+      "type": "Vector4"
+    },
+    {
+      "name": "randomMin",
+      "type": "Vector4"
+    },
+    {
+      "name": "vectorType",
+      "type": "uint32"
+    },
+    {
+      "name": "xySquere",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
   ]
 }

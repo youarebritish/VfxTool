@@ -1,0 +1,25 @@
+{
+  "name": "FxLightVectorNode",
+  "properties": [
+    {
+      "name": "1318264474",
+      "type": "bool"
+    },
+    {
+      "name": "global",
+      "type": "bool"
+    },
+    {
+      "name": "reverse",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "TppConstantSkyMaterialNode",
+  "properties": [
+    {
+      "name": "3367020610",
+      "type": "float"
+    },
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

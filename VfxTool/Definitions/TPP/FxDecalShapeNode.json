@@ -1,0 +1,153 @@
+{
+  "name": "FxDecalShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "baseSizeScale",
+      "type": "float"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "2148151615",
+      "type": "bool"
+    },
+    {
+      "name": "1526691826",
+      "type": "bool"
+    },
+    {
+      "name": "debugDraw",
+      "type": "bool"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "2577252595",
+      "type": "string"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "2291032175",
+      "type": "uint32"
+    },
+    {
+      "name": "modelFile",
+      "type": "uint64"
+    },
+    {
+      "name": "nearClipScale",
+      "type": "float"
+    },
+    {
+      "name": "755338348",
+      "type": "string"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "2297491625",
+      "type": "uint32"
+    },
+    {
+      "name": "2740598589",
+      "type": "float"
+    },
+    {
+      "name": "1142391332",
+      "type": "float"
+    },
+    {
+      "name": "screenSpace",
+      "type": "bool"
+    },
+    {
+      "name": "2726980656",
+      "type": "Vector4"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    },
+    {
+      "name": "3335294191",
+      "type": "string"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    },
+    {
+      "name": "2140236661",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Vector"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    },
+    {
+      "index": 6,
+      "name": "input6",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
+  ]
+}

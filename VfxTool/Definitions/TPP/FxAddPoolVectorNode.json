@@ -1,0 +1,33 @@
+{
+  "name": "FxAddPoolVectorNode",
+  "properties": [
+    {
+      "name": "3709078247",
+      "type": "float"
+    },
+    {
+      "name": "3616630591",
+      "type": "float"
+    },
+    {
+      "name": "1405690791",
+      "type": "float"
+    },
+    {
+      "name": "outputType",
+      "type": "uint32"
+    },
+    {
+      "name": "634736624",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

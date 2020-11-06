@@ -7,19 +7,33 @@ namespace VfxTool
 {
     public class FxModuleEdge : IXmlSerializable
     {
-        private byte sourceNodeIndex;
-        private byte targetNodeIndex;
-        private byte sourcePortType;
-        private byte sourcePortIndex;
-        private byte targetPortType;
-        private byte targetPortIndex;
+        public enum NodeIndexSize
+        {
+            UInt8,
+            UInt16
+        }
 
-        public static FxModuleEdge Read(BinaryReader reader)
+        public ushort sourceNodeIndex;
+        public ushort targetNodeIndex;
+        public byte sourcePortType;
+        public byte sourcePortIndex;
+        public byte targetPortType;
+        public byte targetPortIndex;
+
+        public static FxModuleEdge Read(BinaryReader reader, NodeIndexSize size)
         {
             var edge = new FxModuleEdge();
+            if (size == NodeIndexSize.UInt8)
+            {
+                edge.sourceNodeIndex = reader.ReadByte();
+                edge.targetNodeIndex = reader.ReadByte();
+            }
+            else
+            {
+                edge.sourceNodeIndex = reader.ReadUInt16();
+                edge.targetNodeIndex = reader.ReadUInt16();
+            }
 
-            edge.sourceNodeIndex = reader.ReadByte();
-            edge.targetNodeIndex = reader.ReadByte();
             edge.sourcePortType = reader.ReadByte();
             edge.sourcePortIndex = reader.ReadByte();
             edge.targetPortType = reader.ReadByte();

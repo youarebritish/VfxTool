@@ -1,0 +1,26 @@
+{
+  "name": "FxDistortionMaterialNode",
+  "properties":
+  [
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownInt80",
+      "type": "int8"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "texturePath",
+      "type": "string"
+    },
+  ]
+}

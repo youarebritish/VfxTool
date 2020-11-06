@@ -4,6 +4,8 @@ using System.IO;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
+using static VfxTool.FxModuleEdge;
+using static VfxTool.FxVfxNode;
 
 namespace VfxTool
 {
@@ -24,12 +26,13 @@ namespace VfxTool
             }
         }
 
-        private ushort nodeCount;
+        public ushort nodeCount;
         private ushort edgeCount;
-        private readonly IList<FxVfxNode> nodes = new List<FxVfxNode>();
-        private readonly IList<FxModuleEdge> edges = new List<FxModuleEdge>();
-        private readonly IDictionary<ulong, FxVfxNodeDefinition> tppDefinitions;
-        private readonly IDictionary<ulong, FxVfxNodeDefinition> gzDefinitions;
+        public ushort unknown1;
+        public readonly IList<FxVfxNode> nodes = new List<FxVfxNode>();
+        public readonly IList<FxModuleEdge> edges = new List<FxModuleEdge>();
+        public readonly IDictionary<ulong, FxVfxNodeDefinition> tppDefinitions;
+        public readonly IDictionary<ulong, FxVfxNodeDefinition> gzDefinitions;
         private string filename;
         private Version version;
 
@@ -50,22 +53,33 @@ namespace VfxTool
             this.filename = filename;
 
             var signature = reader.ReadChars(3);
+            if (new string(signature) != "vfx")
+            {
+                Console.WriteLine("Not a valid VFX file.");
+                return false;
+            }
+
             this.version = (Version)reader.ReadUInt16();
             this.nodeCount = reader.ReadUInt16();
             this.edgeCount = reader.ReadUInt16();
+            this.unknown1 = reader.ReadUInt16();
 
-            // TODO: Write/Read version to XML
+            var nodeIndexSize = this.GetNodeIndexSize();
+
             // TODO: Figure out how to handle GZ hashes
-
             if (Program.IsVerbose)
             {
                 Console.WriteLine($"Version: {this.version}");
                 Console.WriteLine($"Node count: {this.nodeCount}");
                 Console.WriteLine($"Edge count: {this.edgeCount}");
+
+                if (this.unknown1 != 0)
+                {
+                    Console.WriteLine($"Unknown flag detected ({this.unknown1}). May have unexpected output.");
+                }
             }
 
-            reader.BaseStream.Position += 6;
-
+            reader.BaseStream.Position += 4;
             for (var i = 0; i < nodeCount; i++)
             {
                 if (!TryReadNode(reader, i, this.Definitions))
@@ -76,10 +90,32 @@ namespace VfxTool
 
             for (var i = 0; i < edgeCount; i++)
             {
-                ReadEdge(reader);
+                ReadEdge(reader, nodeIndexSize);
             }
 
             return true;
+        }
+
+        private NodeIndexSize GetNodeIndexSize()
+        {
+            if (this.nodeCount > byte.MaxValue)
+            {
+                return NodeIndexSize.UInt16;
+            }
+            else
+            {
+                return NodeIndexSize.UInt8;
+            }
+        }
+
+        private StringType GetStringType()
+        {
+            if (this.version == Version.Gz)
+            {
+                return StringType.Gz;
+            }
+
+            return StringType.Tpp;
         }
 
         public void Write(BinaryWriter writer)
@@ -124,7 +160,7 @@ namespace VfxTool
                 Console.WriteLine("---");
             }
 
-            var node = FxVfxNode.Read(reader, definition);
+            var node = FxVfxNode.Read(reader, definition, this.GetStringType());
             if (Program.IsVerbose)
             {
                 Console.WriteLine($"Finished {definition.name} at {reader.BaseStream.Position}");
@@ -134,9 +170,9 @@ namespace VfxTool
             return true;
         }
 
-        private void ReadEdge(BinaryReader reader)
+        private void ReadEdge(BinaryReader reader, FxModuleEdge.NodeIndexSize edgeIndexSize)
         {
-            var edge = FxModuleEdge.Read(reader);
+            var edge = FxModuleEdge.Read(reader, edgeIndexSize);
             edges.Add(edge);
         }
 

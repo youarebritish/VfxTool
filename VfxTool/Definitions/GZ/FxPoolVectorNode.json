@@ -1,0 +1,14 @@
+{
+  "name": "FxPoolVectorNode",
+  "properties": 
+  [
+    {
+      "name": "bool1",
+      "type": "bool"
+    },
+	{
+      "name": "str1",
+      "type": "string"
+    },
+  ]
+}

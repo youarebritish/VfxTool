@@ -1,7 +1,6 @@
 {
   "name": "FxModuleGraph",
-  "properties":
-  [
+  "properties": [
     {
       "name": "allFrame",
       "type": "uint32"
@@ -14,37 +13,165 @@
       "name": "boundingBoxOffsetSize",
       "type": "Vector4"
     },
-	{
-	  "name": "boundingBoxType",
-	  "type": "int"
-	},
-	{
-	  "name": "debugInfo",
-	  "type": "bool"
-	},
-	{
-	  "name": "effectName",
-	  "type": "uint64"
-	},
-	{
-	  "name": "executionPriorityType",
-	  "type": "int"
-	},
-	{
-	  "name": "fadeInEndFrame",
-	  "type": "uint32"
-	},
-	{
-	  "name": "fadeOutStartFrame",
-	  "type": "uint32"
-	},
-	{
-	  "name": "playMode",
-	  "type": "int"
-	},
-	{
-	  "name": "updateType",
-	  "type": "int"
-	}
-  ]
+    {
+      "name": "boundingBoxType",
+      "type": "int"
+    },
+    {
+      "name": "debugInfo",
+      "type": "bool"
+    },
+    {
+      "name": "effectName",
+      "type": "uint64"
+    },
+    {
+      "name": "executionPriorityType",
+      "type": "int"
+    },
+    {
+      "name": "fadeInEndFrame",
+      "type": "uint32"
+    },
+    {
+      "name": "fadeOutStartFrame",
+      "type": "uint32"
+    },
+    {
+      "name": "playMode",
+      "type": "int"
+    },
+    {
+      "name": "updateType",
+      "type": "int"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Shape"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 6,
+      "name": "input6",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 7,
+      "name": "input7",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 8,
+      "name": "input8",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 9,
+      "name": "input9",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 10,
+      "name": "input10",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 11,
+      "name": "input11",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 12,
+      "name": "input12",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 13,
+      "name": "input13",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 14,
+      "name": "input14",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 15,
+      "name": "input15",
+      "type": "Shape"
+    },
+    {
+      "index": 16,
+      "name": "input16",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 17,
+      "name": "input17",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 18,
+      "name": "input18",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 19,
+      "name": "input19",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 20,
+      "name": "input20",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 21,
+      "name": "input21",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 22,
+      "name": "input22",
+      "type": "Ambiguous"
+    },
+    {
+      "index": 23,
+      "name": "input23",
+      "type": "Shape"
+    },
+    {
+      "index": 24,
+      "name": "input24",
+      "type": "Shape"
+    }
+  ],
+  "outputPorts": []
 }

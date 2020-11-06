@@ -1,130 +1,168 @@
 {
   "name": "FxSpotLightShapeNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "float1",
+      "name": "attenuationExponent",
       "type": "float"
     },
     {
-      "name": "vector1",
+      "name": "autoBoundingBoxMargin",
       "type": "Vector4"
     },
     {
-      "name": "int1",
-      "type": "int"
+      "name": "boundingBoxType",
+      "type": "uint32"
     },
     {
-      "name": "bool1",
+      "name": "castShadow",
       "type": "bool"
     },
     {
-      "name": "float2",
+      "name": "dimmer",
       "type": "float"
     },
     {
-      "name": "bool2",
+      "name": "enable",
       "type": "bool"
     },
     {
-      "name": "bool3",
+      "name": "2960149574",
       "type": "bool"
     },
     {
-      "name": "bool4",
+      "name": "enableLightArea",
       "type": "bool"
     },
     {
-      "name": "bool5",
+      "name": "hasSpecular",
       "type": "bool"
     },
     {
-      "name": "float3",
+      "name": "innerRange",
       "type": "float"
     },
     {
-      "name": "float4",
+      "name": "1653825599",
       "type": "float"
     },
     {
-      "name": "vector2",
+      "name": "1933391744",
       "type": "Vector4"
     },
     {
-      "name": "vector3",
+      "name": "1188090782",
       "type": "Vector4"
     },
     {
-      "name": "vector4",
+      "name": "3375078913",
       "type": "Vector4"
     },
     {
-      "name": "bool6",
+      "name": "localSpace",
       "type": "bool"
     },
     {
-      "name": "int2",
-      "type": "int"
+      "name": "lodFadeType",
+      "type": "uint32"
     },
     {
-      "name": "int3",
-      "type": "int"
-    },
-    {
-      "name": "int4",
-      "type": "int"
-    },
-    {
-      "name": "int5",
-      "type": "int"
-    },
-    {
-      "name": "float5",
+      "name": "lodFarSize",
       "type": "float"
     },
     {
-      "name": "vector5",
-      "type": "Vector4"
-    },
-    {
-      "name": "vector6",
-      "type": "Vector4"
-    },
-    {
-      "name": "int6",
-      "type": "int"
-    },
-    {
-      "name": "float6",
+      "name": "lodNearSize",
       "type": "float"
     },
     {
-      "name": "str1",
+      "name": "lodRadiusLevel",
+      "type": "uint32"
+    },
+    {
+      "name": "1682364888",
+      "type": "float"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "outerRange",
+      "type": "float"
+    },
+    {
+      "name": "2692423206",
       "type": "string"
     },
     {
-      "name": "str2",
+      "name": "receiveName",
       "type": "string"
     },
     {
-      "name": "float7",
+      "name": "shadowAttenuationExponent",
       "type": "float"
     },
     {
-      "name": "int7",
-      "type": "int"
-    },
-    {
-      "name": "float8",
+      "name": "shadowBias",
       "type": "float"
     },
     {
-      "name": "float9",
+      "name": "3182477209",
       "type": "float"
     },
     {
-      "name": "int8",
-      "type": "int"
+      "name": "3753526741",
+      "type": "float"
     },
+    {
+      "name": "viewBias",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Vector"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
   ]
 }

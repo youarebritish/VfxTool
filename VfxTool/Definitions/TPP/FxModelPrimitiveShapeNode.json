@@ -1,0 +1,110 @@
+{
+  "name": "FxModelPrimitiveShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "cullFace",
+      "type": "bool"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "3356457435",
+      "type": "bool"
+    },
+    {
+      "name": "1916919514",
+      "type": "bool"
+    },
+    {
+      "name": "1243770145",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "modelFile",
+      "type": "uint64"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "239716427",
+      "type": "bool"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Material"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    },
+    {
+      "index": 6,
+      "name": "input6",
+      "type": "Vector"
+    },
+    {
+      "index": 7,
+      "name": "input7",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
+  ]
+}

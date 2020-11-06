@@ -1,0 +1,30 @@
+{
+  "name": "FxNumLodEmitNode",
+  "properties":
+  [
+    {
+      "name": "inverse",
+      "type": "bool"
+    },
+    {
+      "name": "unknownFloat00",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+  ]
+}

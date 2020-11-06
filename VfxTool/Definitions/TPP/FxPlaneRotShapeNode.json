@@ -1,14 +1,13 @@
 {
   "name": "FxPlaneRotShapeNode",
-  "properties": 
-  [
+  "properties": [
     {
       "name": "autoBoundingBoxMargin",
       "type": "Vector4"
     },
     {
       "name": "axisFix",
-      "type": "int32"
+      "type": "uint32"
     },
     {
       "name": "axisFixParticleDirectionPoolName",
@@ -16,7 +15,7 @@
     },
     {
       "name": "baseRot",
-      "type": "Quaternion"
+      "type": "Vector4"
     },
     {
       "name": "baseSizeScale",
@@ -24,18 +23,18 @@
     },
     {
       "name": "boundingBoxType",
-      "type": "int32"
+      "type": "uint32"
     },
     {
-      "name": "CenterU",
+      "name": "centerU",
       "type": "float"
     },
     {
-      "name": "CenterV",
+      "name": "centerV",
       "type": "float"
     },
     {
-      "name": "cullFace", 
+      "name": "cullFace",
       "type": "bool"
     },
     {
@@ -64,15 +63,64 @@
     },
     {
       "name": "rotateOrderType",
-      "type": "int32"
+      "type": "uint32"
     },
     {
       "name": "sortMode",
-      "type": "int32"
+      "type": "uint32"
     },
     {
       "name": "sortOffset",
       "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Material"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    },
+    {
+      "index": 6,
+      "name": "input6",
+      "type": "Vector"
+    },
+    {
+      "index": 7,
+      "name": "input7",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
     }
   ]
 }

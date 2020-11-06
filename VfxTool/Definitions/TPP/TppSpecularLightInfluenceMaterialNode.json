@@ -1,0 +1,61 @@
+{
+  "name": "TppSpecularLightInfluenceMaterialNode",
+  "properties": [
+    {
+      "name": "ambientRate",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInFar",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInNear",
+      "type": "float"
+    },
+    {
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "directionalLightRate",
+      "type": "float"
+    },
+    {
+      "name": "normalMap",
+      "type": "string"
+    },
+    {
+      "name": "opaque",
+      "type": "bool"
+    },
+    {
+      "name": "pointLightRate",
+      "type": "float"
+    },
+    {
+      "name": "shininess",
+      "type": "float"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

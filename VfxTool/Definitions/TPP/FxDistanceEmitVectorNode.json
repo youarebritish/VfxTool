@@ -1,0 +1,11 @@
+{
+  "name": "FxDistanceEmitVectorNode",
+  "properties": [
+    {
+      "name": "correctDistance",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
+}

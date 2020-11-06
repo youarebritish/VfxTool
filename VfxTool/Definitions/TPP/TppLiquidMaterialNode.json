@@ -1,0 +1,91 @@
+{
+  "name": "TppLiquidMaterialNode",
+  "properties": [
+    {
+      "name": "2496450008",
+      "type": "Vector4"
+    },
+    {
+      "name": "3921605805",
+      "type": "float"
+    },
+    {
+      "name": "1378815363",
+      "type": "float"
+    },
+    {
+      "name": "3696679818",
+      "type": "float"
+    },
+    {
+      "name": "1856251406",
+      "type": "float"
+    },
+    {
+      "name": "4100939775",
+      "type": "float"
+    },
+    {
+      "name": "2107544923",
+      "type": "float"
+    },
+    {
+      "name": "630832613",
+      "type": "float"
+    },
+    {
+      "name": "2596658434",
+      "type": "float"
+    },
+    {
+      "name": "108422851",
+      "type": "float"
+    },
+    {
+      "name": "opaque",
+      "type": "bool"
+    },
+    {
+      "name": "shadowed",
+      "type": "bool"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "3106605974",
+      "type": "float"
+    },
+    {
+      "name": "2263292836",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
+      "type": "uint32"
+    },
+    {
+      "name": "2359260809",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendWidth",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeRandomStart",
+      "type": "bool"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
+}

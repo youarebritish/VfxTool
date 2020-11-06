@@ -1,0 +1,58 @@
+{
+  "name": "TppRainMaterialNode",
+  "properties":
+  [
+    {
+      "name": "unknownInt80",
+      "type": "int8"
+    },
+    {
+      "name": "unknownVector40",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownInt81",
+      "type": "int8"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "texturePath_albedo",
+      "type": "string"
+    },
+    {
+      "name": "unknownInt82",
+      "type": "int8"
+    },
+    {
+      "name": "unknownVector41",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownVector42",
+      "type": "Vector4"
+    },
+    {
+      "name": "texturePath_normal",
+      "type": "string"
+    },
+    {
+      "name": "unknownInt83",
+      "type": "int8"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+  ]
+}

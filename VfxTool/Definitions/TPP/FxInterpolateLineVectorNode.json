@@ -1,0 +1,31 @@
+{
+  "name": "FxInterpolateLineVectorNode",
+  "properties": [
+    {
+      "name": "beginPosition",
+      "type": "Vector4"
+    },
+    {
+      "name": "endPosition",
+      "type": "Vector4"
+    },
+    {
+      "name": "receiveName",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

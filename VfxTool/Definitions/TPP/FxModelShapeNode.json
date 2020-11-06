@@ -1,46 +1,84 @@
 {
   "name": "FxModelShapeNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownVector1",
+      "name": "autoBoundingBoxMargin",
       "type": "Vector4"
     },
     {
-      "name": "unknownInt1",
-      "type": "int32"
+      "name": "boundingBoxType",
+      "type": "uint32"
     },
     {
-      "name": "unknownBool1",
+      "name": "enable",
       "type": "bool"
     },
     {
-      "name": "unknownBool2",
+      "name": "localSpace",
       "type": "bool"
     },
     {
-      "name": "unknownFloat1",
+      "name": "lodFarSize",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "lodNearSize",
       "type": "float"
     },
     {
-      "name": "unknownVector2",
+      "name": "manualBoundingBoxOffset",
       "type": "Vector4"
     },
     {
-      "name": "unknownVector3",
+      "name": "manualBoundingBoxSize",
       "type": "Vector4"
     },
     {
-      "name": "probablyAFileHash",
+      "name": "modelFile",
       "type": "uint64"
     },
     {
-      "name": "unknownInt2",
-      "type": "int32"
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
     },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Vector"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
   ]
 }

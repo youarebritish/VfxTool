@@ -1,138 +1,145 @@
 {
   "name": "TppLiquidMaterial2Node",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownFloat0",
+      "name": "ambientRate",
       "type": "float"
     },
     {
-      "name": "unknownUint0",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownUint1",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownUint2",
-      "type": "uint32"
-    },
-	{
-      "name": "unknownString0",
-      "type": "string"
-	},
-    {
-      "name": "unknownFloat1",
+      "name": "cameraFadeInFar",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "cameraFadeInNear",
       "type": "float"
     },
     {
-      "name": "unknownString1",
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "3197405952",
       "type": "string"
     },
     {
-      "name": "unknownBool0",
-      "type": "bool"
-    },
-    {
-      "name": "unknownFloat3",
+      "name": "directionalLightRate",
       "type": "float"
     },
     {
-      "name": "unknownBool1",
-      "type": "bool"
-    },
-    {
-      "name": "unknownUint3",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownFloat4",
+      "name": "4138820675",
       "type": "float"
     },
     {
-      "name": "unknownFloat5",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat5_1",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_1",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_2",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_3",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_4",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_5",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_6",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_7",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_8",
-      "type": "float"
-    },
-    {
-      "name": "unknownBool2",
-      "type": "bool"
-    },
-    {
-      "name": "unknownFloat6_81",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat6_9",
-      "type": "float"
-    },
-    {
-      "name": "unknownUint7",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownUint8",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownBool3",
-      "type": "bool"
-    },
-    {
-      "name": "unknownBool4",
-      "type": "bool"
-    },
-    {
-      "name": "texturePath",
+      "name": "755338348",
       "type": "string"
     },
     {
-      "name": "unknownFloat7",
+      "name": "opaque",
+      "type": "bool"
+    },
+    {
+      "name": "pointLightRate",
       "type": "float"
+    },
+    {
+      "name": "receiveShadowMap",
+      "type": "bool"
+    },
+    {
+      "name": "2061120325",
+      "type": "float"
+    },
+    {
+      "name": "2596156932",
+      "type": "float"
+    },
+    {
+      "name": "3862900584",
+      "type": "float"
+    },
+    {
+      "name": "1139767064",
+      "type": "float"
+    },
+    {
+      "name": "3730939523",
+      "type": "float"
+    },
+    {
+      "name": "4291145388",
+      "type": "float"
+    },
+    {
+      "name": "3528319072",
+      "type": "float"
+    },
+    {
+      "name": "4159649592",
+      "type": "float"
+    },
+    {
+      "name": "1745947496",
+      "type": "float"
+    },
+    {
+      "name": "1122693216",
+      "type": "float"
+    },
+    {
+      "name": "2227436802",
+      "type": "float"
+    },
+    {
+      "name": "roughness",
+      "type": "float"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendFrame",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeBlendWidth",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeClamp",
+      "type": "bool"
+    },
+    {
+      "name": "textureAnimeRandomStart",
+      "type": "bool"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    },
+    {
+      "name": "transparency",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
     }
   ]
 }

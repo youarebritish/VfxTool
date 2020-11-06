@@ -1,0 +1,31 @@
+{
+  "name": "TppGlassMaterialNode",
+  "properties": [
+    {
+      "name": "materialName",
+      "type": "string"
+    },
+    {
+      "name": "modelFile",
+      "type": "uint64"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "1946233019",
+      "type": "string"
+    },
+    {
+      "name": "1996420350",
+      "type": "string"
+    },
+    {
+      "name": "4061420722",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
+}

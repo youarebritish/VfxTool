@@ -1,94 +1,132 @@
 {
   "name": "FxPointLightShapeNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "vector1",
-      "type": "Vector4"
-    },
-	{
-      "name": "bool1",
-      "type": "bool"
-    },
-	{
-      "name": "int1",
-      "type": "int"
-    },
-	{
-      "name": "bool2",
-      "type": "bool"
-    },
-	{
-      "name": "int2",
-      "type": "int"
-    },
-	{
-      "name": "bool3",
-      "type": "bool"
-    },
-	{
-      "name": "bool4",
-      "type": "bool"
-    },
-	{
-      "name": "bool5",
-      "type": "bool"
-    },
-    {
-      "name": "vector2",
+      "name": "autoBoundingBoxMargin",
       "type": "Vector4"
     },
     {
-      "name": "vector3",
-      "type": "Vector4"
-    },
-    {
-      "name": "vector4",
-      "type": "Vector4"
-    },
-	{
-      "name": "bool6",
+      "name": "970972573",
       "type": "bool"
     },
-	{
-      "name": "int3",
-      "type": "int"
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
     },
-	{
-      "name": "int4",
-      "type": "int"
+    {
+      "name": "castShadow",
+      "type": "bool"
     },
-	{
-      "name": "int5",
-      "type": "int"
-    },
-	{
-      "name": "int6",
-      "type": "int"
-    },
-	{
-      "name": "float1",
+    {
+      "name": "dimmer",
       "type": "float"
     },
     {
-      "name": "vector5",
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "enableLightArea",
+      "type": "bool"
+    },
+    {
+      "name": "hasSpecular",
+      "type": "bool"
+    },
+    {
+      "name": "1933391744",
       "type": "Vector4"
     },
     {
-      "name": "vector6",
+      "name": "1188090782",
       "type": "Vector4"
     },
-	{
-      "name": "int7",
-      "type": "int"
+    {
+      "name": "3375078913",
+      "type": "Vector4"
     },
-	{
-      "name": "str1",
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "lodFadeType",
+      "type": "uint32"
+    },
+    {
+      "name": "lodFarSize",
+      "type": "float"
+    },
+    {
+      "name": "lodNearSize",
+      "type": "float"
+    },
+    {
+      "name": "lodRadiusLevel",
+      "type": "uint32"
+    },
+    {
+      "name": "1682364888",
+      "type": "float"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "receiveName",
       "type": "string"
     },
-	{
-      "name": "int8",
-      "type": "int"
+    {
+      "name": "shadowBias",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
     },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Vector"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
   ]
 }

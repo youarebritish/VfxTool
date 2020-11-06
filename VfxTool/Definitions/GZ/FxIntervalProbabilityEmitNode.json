@@ -48,7 +48,7 @@
 	},
 	{
 	  "name": "randomGatherType",
-	  "type": "int32"
+      "type": "uint32"
 	},
 	{
 	  "name": "receiveName",

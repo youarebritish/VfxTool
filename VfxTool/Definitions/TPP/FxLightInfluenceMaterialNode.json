@@ -1,60 +1,59 @@
 {
   "name": "FxLightInfluenceMaterialNode",
-  "properties": 
-  [
+  "properties": [
     {
       "name": "ambientRate",
       "type": "float"
     },
-        {
+    {
       "name": "cameraFadeInFar",
       "type": "float"
     },
-        {
+    {
       "name": "cameraFadeInNear",
       "type": "float"
     },
-        {
+    {
       "name": "cameraZOffset",
       "type": "float"
     },
-        {
+    {
       "name": "directionalLightRate",
       "type": "float"
     },
-        {
+    {
       "name": "opaque",
       "type": "bool"
     },
-        {
+    {
       "name": "pointLightRate",
       "type": "float"
     },
-        {
+    {
       "name": "receiveShadowMap",
       "type": "bool"
     },
-        {
+    {
       "name": "shaderType",
-      "type": "int32"
+      "type": "uint32"
     },
-        {
+    {
       "name": "softBlend",
       "type": "bool"
     },
-            {
+    {
       "name": "softBlendFactor",
       "type": "float"
     },
-            {
+    {
       "name": "textureAnimeBlend",
       "type": "bool"
     },
-            {
+    {
       "name": "textureAnimeBlendFrame",
       "type": "float"
     },
-            {
+    {
       "name": "textureAnimeBlendHeight",
       "type": "uint32"
     },
@@ -62,17 +61,25 @@
       "name": "textureAnimeBlendWidth",
       "type": "uint32"
     },
-        {
+    {
       "name": "textureAnimeClamp",
       "type": "bool"
     },
-        {
+    {
       "name": "textureAnimeRandomStart",
       "type": "bool"
     },
-        {
+    {
       "name": "textureFile",
       "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
     }
   ]
 }

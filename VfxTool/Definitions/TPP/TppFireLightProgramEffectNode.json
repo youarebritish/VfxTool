@@ -1,0 +1,41 @@
+{
+  "name": "TppFireLightProgramEffectNode",
+  "properties": [
+    {
+      "name": "attenuation",
+      "type": "float"
+    },
+    {
+      "name": "duration",
+      "type": "float"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "life",
+      "type": "float"
+    },
+    {
+      "name": "offsetPos",
+      "type": "Vector4"
+    },
+    {
+      "name": "radius",
+      "type": "float"
+    },
+    {
+      "name": "3216395875",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
+    }
+  ]
+}

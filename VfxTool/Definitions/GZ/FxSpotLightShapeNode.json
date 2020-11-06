@@ -1,0 +1,122 @@
+{
+  "name": "FxSpotLightShapeNode",
+  "properties": 
+  [
+    {
+      "name": "float1",
+      "type": "float"
+    },
+    {
+      "name": "vector1",
+      "type": "Vector4"
+    },
+    {
+      "name": "int1",
+      "type": "int"
+    },
+    {
+      "name": "bool1",
+      "type": "bool"
+    },
+    {
+      "name": "float2",
+      "type": "float"
+    },
+    {
+      "name": "bool2",
+      "type": "bool"
+    },
+    {
+      "name": "bool3",
+      "type": "bool"
+    },
+    {
+      "name": "bool4",
+      "type": "bool"
+    },
+    {
+      "name": "float3",
+      "type": "float"
+    },
+    {
+      "name": "vector2",
+      "type": "Vector4"
+    },
+    {
+      "name": "vector3",
+      "type": "Vector4"
+    },
+    {
+      "name": "vector4",
+      "type": "Vector4"
+    },
+    {
+      "name": "bool6",
+      "type": "bool"
+    },
+    {
+      "name": "int2",
+      "type": "int"
+    },
+    {
+      "name": "float41",
+      "type": "float"
+    },
+    {
+      "name": "float42",
+      "type": "float"
+    },
+    {
+      "name": "int5",
+      "type": "int"
+    },
+    {
+      "name": "float5",
+      "type": "float"
+    },
+    {
+      "name": "vector5",
+      "type": "Vector4"
+    },
+    {
+      "name": "vector6",
+      "type": "Vector4"
+    },
+    {
+      "name": "int6",
+      "type": "int"
+    },
+    {
+      "name": "float6",
+      "type": "float"
+    },
+    {
+      "name": "str1",
+      "type": "string"
+    },
+    {
+      "name": "str2",
+      "type": "string"
+    },
+    {
+      "name": "float7",
+      "type": "float"
+    },
+    {
+      "name": "float71",
+      "type": "float"
+    },
+    {
+      "name": "float8",
+      "type": "float"
+    },
+    {
+      "name": "float9",
+      "type": "float"
+    },
+    {
+      "name": "float10",
+      "type": "float"
+    },
+  ]
+}

@@ -1,70 +1,113 @@
 {
   "name": "FxPlaneShapeNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownVector0",
+      "name": "autoBoundingBoxMargin",
       "type": "Vector4"
     },
     {
-      "name": "unknownUint0",
+      "name": "axisFix",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat0",
+      "name": "baseSizeScale",
       "type": "float"
     },
     {
-      "name": "unknownUint1",
+      "name": "boundingBoxType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat1",
+      "name": "centerU",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "centerV",
       "type": "float"
     },
     {
-      "name": "unknownBool0",
+      "name": "cullFace",
       "type": "bool"
     },
     {
-      "name": "unknownBool1",
+      "name": "enable",
       "type": "bool"
     },
     {
-      "name": "unknownBool2",
+      "name": "localSpace",
       "type": "bool"
     },
-	{
-      "name": "unknownVector1",
+    {
+      "name": "manualBoundingBoxOffset",
       "type": "Vector4"
     },
     {
-      "name": "unknownVector2",
+      "name": "manualBoundingBoxSize",
       "type": "Vector4"
     },
     {
-      "name": "unknownUint2",
+      "name": "numSimulatedMaxParticle",
       "type": "uint32"
     },
     {
-      "name": "unknownVector3",
+      "name": "1310070412",
       "type": "Vector4"
     },
     {
-      "name": "unknownBool3",
+      "name": "rotGlobal",
       "type": "bool"
     },
     {
-      "name": "unknownUint3",
+      "name": "sortMode",
       "type": "uint32"
     },
     {
-      "name": "unknownUint4",
-      "type": "uint32"
+      "name": "sortOffset",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Material"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    },
+    {
+      "index": 6,
+      "name": "input6",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
     }
   ]
 }

@@ -12,10 +12,16 @@ using System.Xml.Serialization;
 namespace VfxTool
 {
     [DebuggerDisplay("{type}")]
-    internal class FxVfxNode : IXmlSerializable
+    public sealed class FxVfxNode : IXmlSerializable
     {
-        private FxVfxNodeDefinition definition;
-        private IDictionary<string, IList> properties = new Dictionary<string, IList>();
+        public enum StringType
+        {
+            Tpp,
+            Gz
+        }
+
+        public FxVfxNodeDefinition definition;
+        public IDictionary<string, IList> properties = new Dictionary<string, IList>();
 
         private FxVfxNode() { }
 
@@ -34,7 +40,7 @@ namespace VfxTool
             return node;
         }
 
-        public static FxVfxNode Read(BinaryReader reader, FxVfxNodeDefinition definition)
+        public static FxVfxNode Read(BinaryReader reader, FxVfxNodeDefinition definition, StringType stringType)
         {
             var node = new FxVfxNode
             {
@@ -54,7 +60,7 @@ namespace VfxTool
 
                 for(var i = 0; i < arraySize; i++)
                 {
-                    values.Add(ReadValue(reader, property.type));
+                    values.Add(ReadValue(reader, property.type, stringType));
                 }
             }
 
@@ -120,10 +126,10 @@ namespace VfxTool
                     writer.Write(ulong.Parse(str));
                     return;
                 case "float":
-                    writer.Write(VfxTool.Extensions.ParseFloatRoundtrip(str));
+                    writer.Write(Extensions.ParseFloatRoundtrip(str));
                     return;
                 case "double":
-                    writer.Write(VfxTool.Extensions.ParseDoubleRoundtrip(str));
+                    writer.Write(Extensions.ParseDoubleRoundtrip(str));
                     return;
                 case "bool":
                     writer.Write(ParseBool(str));
@@ -149,7 +155,7 @@ namespace VfxTool
             }
         }
 
-        private static object ReadValue(BinaryReader reader, string type)
+        private static object ReadValue(BinaryReader reader, string type, StringType stringType)
         {
             switch(type)
             {
@@ -189,8 +195,22 @@ namespace VfxTool
                         Console.WriteLine($"String length: {size}");
                     }
 
-                    var str = new string(reader.ReadChars(size));
-                    reader.ReadChar();
+                    string str = string.Empty;
+                    if (stringType == StringType.Tpp)
+                    {
+
+                        str = new string(reader.ReadChars(size));
+                        reader.ReadChar();
+                    }
+                    else
+                    {
+                        var currentChar = reader.ReadChar();
+                        while (currentChar != '\0')
+                        {
+                            str += currentChar;
+                            currentChar = reader.ReadChar();
+                        }
+                    }
 
                     if (Program.IsVerbose)
                     {
@@ -292,6 +312,18 @@ namespace VfxTool
             }
             else
             {
+                // GZ string hack since the encrypted paths contain invalid XML characters - base 64 encode them
+                if (val is string && (val as string).StartsWith("/as/"))
+                {
+                    var strVal = val as string;
+                    var extension = strVal.Substring(strVal.LastIndexOf('.'));
+                    var path = strVal.Substring(4, strVal.Length - extension.Length - 4);
+                    var bytes = System.Text.Encoding.UTF8.GetBytes(path);
+                    var base64 = Convert.ToBase64String(bytes);
+
+                    val = $"/as/{base64}{extension}";
+                }
+
                 writer.WriteValue(val);
             }
 

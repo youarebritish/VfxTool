@@ -1,0 +1,90 @@
+{
+  "name": "TppLiquidMaterialNode",
+  "properties":
+  [
+    {
+      "name": "unknownVector40",
+      "type": "Vector4"
+    },
+    {
+      "name": "unknownFloat00",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat01",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat0",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat1",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat2",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint2",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownFloat3",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat4",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat5",
+      "type": "float"
+    },
+    {
+      "name": "unknownInt8OrBool0",
+      "type": "int8"
+    },
+    {
+      "name": "unknownInt8OrBool1",
+      "type": "int8"
+    },
+    {
+      "name": "unknownInt8OrBool2",
+      "type": "int8"
+    },
+    {
+      "name": "unknownFloat6",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat7",
+      "type": "float"
+    },
+    {
+      "name": "unknownFloat8",
+      "type": "float"
+    },
+    {
+      "name": "unknownUint3",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint4",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownUint5",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownInt8OrBool3",
+      "type": "int8"
+    },
+    {
+      "name": "texturePath",
+      "type": "string"
+    },
+  ]
+}

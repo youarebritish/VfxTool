@@ -1,0 +1,120 @@
+{
+  "name": "FxRibbonShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "913520402",
+      "type": "bool"
+    },
+    {
+      "name": "3856444664",
+      "type": "uint32"
+    },
+    {
+      "name": "510105210",
+      "type": "uint32"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    },
+    {
+      "name": "371036329",
+      "type": "bool"
+    },
+    {
+      "name": "1498389299",
+      "type": "float"
+    },
+    {
+      "name": "3086193025",
+      "type": "float"
+    },
+    {
+      "name": "1487453756",
+      "type": "float"
+    },
+    {
+      "name": "995460117",
+      "type": "float"
+    },
+    {
+      "name": "1763473542",
+      "type": "float"
+    },
+    {
+      "name": "3333722075",
+      "type": "float"
+    },
+    {
+      "name": "1819057689",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Material"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
+  ]
+}

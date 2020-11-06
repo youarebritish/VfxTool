@@ -1,0 +1,11 @@
+{
+  "name": "FxTimeCurveVectorNode",
+  "properties": [
+    {
+      "name": "1954725936",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
+}

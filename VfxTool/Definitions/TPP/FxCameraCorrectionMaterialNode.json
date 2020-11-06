@@ -1,114 +1,121 @@
 {
   "name": "FxCameraCorrectionMaterialNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownUint0",
+      "name": "blendType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat0",
+      "name": "607494993",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "3186344948",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "1015179868",
       "type": "float"
     },
     {
-      "name": "unknownFloat3",
+      "name": "636437219",
       "type": "float"
     },
     {
-      "name": "unknownFloat4",
+      "name": "61712148",
       "type": "float"
     },
     {
-      "name": "unknownFloat5",
+      "name": "2006616130",
       "type": "float"
     },
     {
-      "name": "unknownFloat6",
+      "name": "1968464649",
       "type": "float"
     },
     {
-      "name": "unknownFloat7",
+      "name": "2548066939",
       "type": "float"
     },
     {
-      "name": "unknownFloat8",
+      "name": "4220468991",
       "type": "float"
     },
     {
-      "name": "unknownFloat9",
+      "name": "580268846",
       "type": "float"
     },
     {
-      "name": "unknownFloat10",
+      "name": "3731503007",
       "type": "float"
     },
     {
-      "name": "unknownFloat11",
+      "name": "633951271",
       "type": "float"
     },
     {
-      "name": "unknownFloat12",
+      "name": "1759788148",
       "type": "float"
     },
     {
-      "name": "unknownFloat13",
+      "name": "1788980476",
       "type": "float"
     },
     {
-      "name": "unknownFloat14",
+      "name": "4273359573",
       "type": "float"
     },
     {
-      "name": "unknownFloat15",
+      "name": "49122293",
       "type": "float"
     },
     {
-      "name": "unknownFloat16",
+      "name": "480098159",
       "type": "float"
     },
     {
-      "name": "unknownUint1",
+      "name": "2410673177",
+      "type": "float"
+    },
+    {
+      "name": "2648852009",
+      "type": "float"
+    },
+    {
+      "name": "373957993",
+      "type": "float"
+    },
+    {
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "2079815021",
+      "type": "float"
+    },
+    {
+      "name": "shaderType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat17",
+      "name": "softBlendFactor",
       "type": "float"
     },
     {
-      "name": "unknownFloat18",
-      "type": "float"
-    },
-    {
-      "name": "unknownUint2",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownFloat19",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat20",
-      "type": "float"
-    },
-    {
-      "name": "unknownUint3",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownFloat21",
-      "type": "float"
-    },
-    {
-      "name": "unknownString0",
+      "name": "textureFile",
       "type": "string"
-    },
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
   ]
 }

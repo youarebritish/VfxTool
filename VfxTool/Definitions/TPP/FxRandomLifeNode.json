@@ -1,22 +1,29 @@
 {
   "name": "FxRandomLifeNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "unknownUint0",
+      "name": "2600953680",
       "type": "uint32"
     },
     {
-      "name": "unknownUint1",
+      "name": "2408118931",
       "type": "uint32"
     },
     {
-       "name": "unknownUint2",
-       "type": "uint32"
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
     },
     {
-      "name": "unknownUint3",
+      "name": "randomGatherType",
       "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Life"
     }
   ]
 }

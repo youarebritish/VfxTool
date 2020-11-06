@@ -55,7 +55,7 @@
       "type": "bool"
     },
     {
-      "name": "unknownFloat6",
+      "name": "unknownFloat6_81",
       "type": "float"
     },
     {
@@ -63,11 +63,11 @@
       "type": "uint32"
     },
     {
-      "name": "unknownUint6",
+      "name": "unknownUint7",
       "type": "uint32"
     },
     {
-      "name": "unknownUint7",
+      "name": "unknownUint8",
       "type": "uint32"
     },
     {

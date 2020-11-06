@@ -1,0 +1,14 @@
+{
+  "name": "FxReceiveNumEmitNode",
+  "properties":
+  [
+    {
+      "name": "unknownUint320",
+      "type": "uint32"
+    },
+    {
+      "name": "unknownString0",
+      "type": "string"
+    },
+  ]
+}

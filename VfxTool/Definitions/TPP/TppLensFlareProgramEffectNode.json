@@ -1,62 +1,69 @@
 {
   "name": "TppLensFlareProgramEffectNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "float1",
+      "name": "baseDistance",
       "type": "float"
     },
     {
-      "name": "int1",
-      "type": "int"
+      "name": "drawPriority",
+      "type": "uint32"
     },
     {
-      "name": "bool1",
+      "name": "enable",
       "type": "bool"
     },
     {
-      "name": "unknownUInt640",		  
+      "name": "2802200992",
       "type": "uint64"
     },
     {
-      "name": "str1",
+      "name": "lensFlareName",
       "type": "string"
     },
     {
-      "name": "float2",
+      "name": "limitDistance",
       "type": "float"
     },
     {
-      "name": "float3",
+      "name": "641919330",
       "type": "float"
     },
     {
-      "name": "float4",
+      "name": "lux",
       "type": "float"
     },
     {
-      "name": "int2",
-      "type": "int"
+      "name": "737704731",
+      "type": "uint32"
     },
     {
-      "name": "vector1",
+      "name": "offsets",
       "type": "Vector4"
     },
     {
-      "name": "str2",
+      "name": "receiveName",
       "type": "string"
     },
     {
-      "name": "bool2",
+      "name": "852104428",
       "type": "bool"
     },
     {
-      "name": "float5",
+      "name": "1124949394",
       "type": "float"
     },
     {
-      "name": "float6",
+      "name": "4166394991",
       "type": "float"
-    },
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
+    }
   ]
 }

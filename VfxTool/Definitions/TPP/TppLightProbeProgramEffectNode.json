@@ -1,58 +1,65 @@
 {
   "name": "TppLightProbeProgramEffectNode",
-  "properties": 
-  [
+  "properties": [
     {
       "name": "coefficients",
       "type": "Vector4"
     },
     {
-      "name": "int1",
-      "type": "int"
+      "name": "drawRejectionLevel",
+      "type": "uint32"
     },
     {
-      "name": "bool1",
+      "name": "enable",
       "type": "bool"
     },
     {
-      "name": "float1",
+      "name": "innerScaleXNegative",
       "type": "float"
     },
     {
-      "name": "float2",
+      "name": "innerScaleXPositive",
       "type": "float"
     },
     {
-      "name": "float3",
+      "name": "innerScaleYNegative",
       "type": "float"
     },
     {
-      "name": "float4",
+      "name": "innerScaleYPositive",
       "type": "float"
     },
     {
-      "name": "float5",
+      "name": "innerScaleZNegative",
       "type": "float"
     },
     {
-      "name": "float6",
+      "name": "innerScaleZPositive",
       "type": "float"
     },
     {
-      "name": "bool2",
+      "name": "2929870952",
       "type": "bool"
     },
     {
-      "name": "float7",
+      "name": "1486787463",
       "type": "float"
     },
     {
-      "name": "float8",
+      "name": "1716949032",
       "type": "float"
     },
     {
-      "name": "float9",
+      "name": "2326427446",
       "type": "float"
-    },
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
+    }
   ]
 }

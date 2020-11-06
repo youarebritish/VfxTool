@@ -1,10 +1,23 @@
 {
   "name": "FxInfinityLifeNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "unknownUint0",
+      "name": "1556802380",
       "type": "uint32"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Life"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Life"
     }
   ]
 }

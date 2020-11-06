@@ -1,0 +1,65 @@
+{
+  "name": "TppRainMaterialNode",
+  "properties": [
+    {
+      "name": "addBlend",
+      "type": "bool"
+    },
+    {
+      "name": "932816269",
+      "type": "Vector4"
+    },
+    {
+      "name": "applyThunder",
+      "type": "bool"
+    },
+    {
+      "name": "3975459112",
+      "type": "float"
+    },
+    {
+      "name": "3554327734",
+      "type": "string"
+    },
+    {
+      "name": "2823869891",
+      "type": "bool"
+    },
+    {
+      "name": "4084937760",
+      "type": "Vector4"
+    },
+    {
+      "name": "3131672011",
+      "type": "Vector4"
+    },
+    {
+      "name": "755338348",
+      "type": "string"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "3106605974",
+      "type": "float"
+    },
+    {
+      "name": "2263292836",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}
