@@ -15,3 +15,4 @@ If you have any corrections or new node definitions, please feel free to submit 
 * Joey for help with reversing the .VFX format.
 * OldBoss for transcribing the wiki's VFX node data into JSON files
 * caplag for reversing the following nodes: FxMultipleVectorNode, FxUpdateSleepControlNode, FxPlaneShapeNode, FxConstantMaterialNode, among many others, especially in GZ
+* BobDoleOwndU for implementing read/write support for unknown1, also improving output path handling
