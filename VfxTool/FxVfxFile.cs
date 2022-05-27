@@ -128,8 +128,8 @@ namespace VfxTool
             writer.Write((ushort)this.nodes.Count);
             writer.Write((ushort)this.edges.Count);
 
+            writer.Write(unknown1);
             writer.Write(0);
-            writer.Write((ushort)0);
 
             foreach (var node in this.nodes)
             {
@@ -202,6 +202,9 @@ namespace VfxTool
                 return false;
             }
 
+            reader.MoveToAttribute("unknown1");
+            this.unknown1 = ushort.Parse(reader.Value);
+
             reader.ReadStartElement("vfx");
             reader.ReadStartElement("nodes");
 
@@ -251,6 +254,7 @@ namespace VfxTool
             }
 
             writer.WriteAttributeString("version", versionString);
+            writer.WriteAttributeString("unknown1", unknown1.ToString());
 
             writer.WriteStartElement("nodes");
             foreach (var node in nodes)

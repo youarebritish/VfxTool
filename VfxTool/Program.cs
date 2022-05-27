@@ -47,7 +47,10 @@ namespace VfxTool
                     var vfx = ReadFromXml(path, tppDefinitions, gzDefinitions);
                     if (vfx != null)
                     {
-                        WriteToBinary(vfx, Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(path)) + ".vfx");
+                        string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(path);
+                        string outPath = Path.Combine(Path.GetDirectoryName(path), fileNameWithoutExtension);
+
+                        WriteToBinary(vfx, outPath);
                         continue;
                     }
 
@@ -58,7 +61,9 @@ namespace VfxTool
                     var vfx = ReadFromBinary(path, tppDefinitions, gzDefinitions);
                     if (vfx != null)
                     {
-                        WriteToXml(vfx, Path.GetFileNameWithoutExtension(path) + ".vfx.xml");
+                        string outPath = path + ".xml";
+
+                        WriteToXml(vfx, outPath);
                         continue;
                     }
 
