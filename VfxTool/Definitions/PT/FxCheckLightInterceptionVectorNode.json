@@ -1,0 +1,25 @@
+{
+  "name": "FxCheckLightInterceptionVectorNode",
+  "properties": [
+    {
+      "name": "debugDraw",
+      "type": "bool"
+    },
+    {
+      "name": "631560209",
+      "type": "uint32"
+    },
+    {
+      "name": "lightSize",
+      "type": "float"
+    },
+    {
+      "name": "2530095933",
+      "type": "bool"
+    },
+    {
+      "name": "1699354601",
+      "type": "uint32"
+    }
+  ]
+}

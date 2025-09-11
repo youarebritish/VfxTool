@@ -1,0 +1,45 @@
+{
+  "name": "FxVelocityVerletVectorNode",
+  "properties": [
+    {
+      "name": "airFriction",
+      "type": "float"
+    },
+    {
+      "name": "collisionType",
+      "type": "uint32"
+    },
+    {
+      "name": "4001068406",
+      "type": "bool"
+    },
+    {
+      "name": "freeFrames",
+      "type": "uint32"
+    },
+    {
+      "name": "3718714938",
+      "type": "uint32"
+    },
+    {
+      "name": "3858367482",
+      "type": "Vector4"
+    },
+    {
+      "name": "3950664716",
+      "type": "float"
+    },
+    {
+      "name": "restitution",
+      "type": "float"
+    },
+    {
+      "name": "3727536624",
+      "type": "uint32"
+    },
+    {
+      "name": "3203410907",
+      "type": "float"
+    }
+  ]
+}

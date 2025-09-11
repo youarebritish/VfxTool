@@ -1,0 +1,53 @@
+{
+  "name": "TppLightProbeProgramEffectNode",
+  "properties": [
+    {
+      "name": "coefficients",
+      "type": "Vector4"
+    },
+    {
+      "name": "innerScaleXNegative",
+      "type": "float"
+    },
+    {
+      "name": "innerScaleXPositive",
+      "type": "float"
+    },
+    {
+      "name": "innerScaleYNegative",
+      "type": "float"
+    },
+    {
+      "name": "innerScaleYPositive",
+      "type": "float"
+    },
+    {
+      "name": "innerScaleZNegative",
+      "type": "float"
+    },
+    {
+      "name": "innerScaleZPositive",
+      "type": "float"
+    },
+    {
+      "name": "1486787463",
+      "type": "float"
+    },
+    {
+      "name": "1716949032",
+      "type": "float"
+    },
+    {
+      "name": "2326427446",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
+    }
+  ]
+}

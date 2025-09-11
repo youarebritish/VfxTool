@@ -1,7 +1,6 @@
 {
   "name": "FxIntervalProbabilityEmitNode",
-  "properties":
-  [
+  "properties": [
     {
       "name": "delayFrame",
       "type": "uint32"
@@ -54,5 +53,13 @@
 	  "name": "receiveName",
 	  "type": "string"
 	}
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Emit"
+    }
   ]
 }

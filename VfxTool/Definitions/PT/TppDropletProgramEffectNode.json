@@ -1,0 +1,21 @@
+{
+  "name": "TppDropletProgramEffectNode",
+  "properties": [
+    {
+      "name": "duration",
+      "type": "float"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "1613314511",
+      "type": "float"
+    },
+    {
+      "name": "radius",
+      "type": "float"
+    }
+  ]
+}

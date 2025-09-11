@@ -1,0 +1,137 @@
+{
+  "name": "TppFireMaterialNode",
+  "properties": [
+    {
+      "name": "3781222617",
+      "type": "float"
+    },
+    {
+      "name": "2423181286",
+      "type": "float"
+    },
+    {
+      "name": "4009276665",
+      "type": "float"
+    },
+    {
+      "name": "3859416097",
+      "type": "float"
+    },
+    {
+      "name": "2081862222",
+      "type": "float"
+    },
+    {
+      "name": "1683226614",
+      "type": "float"
+    },
+    {
+      "name": "3485213238",
+      "type": "float"
+    },
+    {
+      "name": "2027074283",
+      "type": "string"
+    },
+    {
+      "name": "628789848",
+      "type": "float"
+    },
+    {
+      "name": "blendType",
+      "type": "uint32"
+    },
+    {
+      "name": "389356002",
+      "type": "Vector4"
+    },
+    {
+      "name": "1958272905",
+      "type": "float"
+    },
+    {
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "2764508755",
+      "type": "float"
+    },
+    {
+      "name": "684404234",
+      "type": "float"
+    },
+    {
+      "name": "3302530936",
+      "type": "float"
+    },
+    {
+      "name": "4099135489",
+      "type": "float"
+    },
+    {
+      "name": "2985521952",
+      "type": "float"
+    },
+    {
+      "name": "2196652736",
+      "type": "float"
+    },
+    {
+      "name": "2664670646",
+      "type": "float"
+    },
+    {
+      "name": "4270516354",
+      "type": "string"
+    },
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "maxExposure",
+      "type": "float"
+    },
+    {
+      "name": "4228448047",
+      "type": "float"
+    },
+    {
+      "name": "minExposure",
+      "type": "float"
+    },
+    {
+      "name": "2878798417",
+      "type": "float"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
+      "type": "uint32"
+    },
+    {
+      "name": "2359260809",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendWidth",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeRandomStart",
+      "type": "bool"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ]
+}

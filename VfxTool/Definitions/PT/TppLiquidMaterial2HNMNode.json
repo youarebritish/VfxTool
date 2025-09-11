@@ -1,0 +1,101 @@
+{
+  "name": "TppLiquidMaterial2HNMNode",
+  "properties": [
+    {
+      "name": "ambientRate",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInFar",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInNear",
+      "type": "float"
+    },
+    {
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "3197405952",
+      "type": "string"
+    },
+    {
+      "name": "directionalLightRate",
+      "type": "float"
+    },
+    {
+      "name": "4138820675",
+      "type": "float"
+    },
+    {
+      "name": "opaque",
+      "type": "bool"
+    },
+    {
+      "name": "pointLightRate",
+      "type": "float"
+    },
+    {
+      "name": "2061120325",
+      "type": "float"
+    },
+    {
+      "name": "2596156932",
+      "type": "float"
+    },
+    {
+      "name": "3862900584",
+      "type": "float"
+    },
+    {
+      "name": "1139767064",
+      "type": "float"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendFrame",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeBlendWidth",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeClamp",
+      "type": "bool"
+    },
+    {
+      "name": "textureAnimeRandomStart",
+      "type": "bool"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    },
+    {
+      "name": "transparency",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "FxCameraAngleVectorNode",
+  "properties": [
+    {
+      "name": "1349453340",
+      "type": "uint32"
+    },
+    {
+      "name": "localCoordinate",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

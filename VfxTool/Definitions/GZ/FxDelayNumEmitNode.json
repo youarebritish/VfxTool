@@ -1,30 +1,37 @@
 {
   "name": "FxDelayNumEmitNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "int1",
-      "type": "int"
+      "name": "delayFrame",
+      "type": "uint32"
     },
     {
-      "name": "int2",
-      "type": "int"
+      "name": "delayFrameRandomRange",
+      "type": "uint32"
     },
     {
-      "name": "int3",
-      "type": "int"
+      "name": "lifeFrame",
+      "type": "uint32"
     },
     {
-      "name": "int4",
-      "type": "int"
+      "name": "num",
+      "type": "uint32"
     },
     {
-      "name": "int5",
-      "type": "int"
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
     },
     {
-      "name": "int6",
-      "type": "int"
+      "name": "randomGatherType",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Emit"
     }
   ]
 }

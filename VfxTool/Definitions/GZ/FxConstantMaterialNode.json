@@ -1,114 +1,121 @@
 {
   "name": "FxConstantMaterialNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownUint0",
+      "name": "blendType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat00",
+      "name": "cameraFadeInFar",
       "type": "float"
     },
     {
-      "name": "unknownUint2",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownFloat0",
+      "name": "cameraFadeInNear",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "480098159",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "2410673177",
       "type": "float"
     },
     {
-      "name": "unknownFloat3",
+      "name": "2648852009",
       "type": "float"
     },
     {
-      "name": "unknownFloat4",
+      "name": "373957993",
       "type": "float"
     },
     {
-      "name": "unknownFloat5",
+      "name": "cameraZOffset",
       "type": "float"
     },
-	{
-      "name": "unknownBool1",
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "opaque",
       "type": "bool"
     },
     {
-      "name": "unknownFloat6",
+      "name": "325373566",
       "type": "float"
     },
     {
-      "name": "unknownFloat7",
+      "name": "2897268155",
       "type": "float"
     },
     {
-      "name": "unknownFloat8",
+      "name": "1804078712",
       "type": "float"
     },
     {
-      "name": "unknownFloat9",
+      "name": "4053993707",
       "type": "float"
     },
     {
-      "name": "unknownFloat10",
+      "name": "2582261602",
       "type": "float"
     },
     {
-      "name": "unknownFloat11",
+      "name": "528383223",
       "type": "float"
     },
     {
-      "name": "unknownFloat12",
+      "name": "670195680",
       "type": "float"
     },
     {
-      "name": "unknownString1",
+      "name": "4152204778",
       "type": "string"
     },
     {
-      "name": "unknownFloat13",
+      "name": "4227848729",
       "type": "float"
     },
     {
-      "name": "unknownUint3_9",
+      "name": "shaderType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat15",
+      "name": "softBlendFactor",
       "type": "float"
     },
     {
-      "name": "unknownFloat16",
+      "name": "textureAnimeBlendFrame",
       "type": "float"
     },
     {
-      "name": "unknownUint4",
+      "name": "textureAnimeBlendHeight",
       "type": "uint32"
     },
     {
-      "name": "unknownUint5",
+      "name": "textureAnimeBlendWidth",
       "type": "uint32"
     },
     {
-      "name": "unknownBool2",
+      "name": "textureAnimeClamp",
       "type": "bool"
     },
     {
-      "name": "unknownBool3",
+      "name": "textureAnimeRandomStart",
       "type": "bool"
     },
     {
-      "name": "string0",
+      "name": "textureFile",
       "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
     }
   ]
 }

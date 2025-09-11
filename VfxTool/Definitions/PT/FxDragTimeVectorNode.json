@@ -1,0 +1,25 @@
+{
+  "name": "FxDragTimeVectorNode",
+  "properties": [
+    {
+      "name": "drag",
+      "type": "float"
+    },
+    {
+      "name": "method",
+      "type": "uint32"
+    },
+    {
+      "name": "scale",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

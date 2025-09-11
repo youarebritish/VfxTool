@@ -1,0 +1,53 @@
+{
+  "name": "FxLocusBladeShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "color",
+      "type": "Vector4"
+    },
+    {
+      "name": "distortion",
+      "type": "float"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "moduleName",
+      "type": "string"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "swelling",
+      "type": "float"
+    },
+    {
+      "name": "192727172",
+      "type": "float"
+    }
+  ]
+}

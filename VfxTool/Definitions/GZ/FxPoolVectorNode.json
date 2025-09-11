@@ -1,14 +1,27 @@
 {
   "name": "FxPoolVectorNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "bool1",
+      "name": "addPool",
       "type": "bool"
     },
-	{
-      "name": "str1",
+    {
+      "name": "634736624",
       "type": "string"
-    },
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
   ]
 }

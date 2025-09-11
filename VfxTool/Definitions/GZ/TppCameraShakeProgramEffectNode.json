@@ -1,0 +1,41 @@
+{
+  "name": "TppCameraShakeProgramEffectNode",
+  "properties": [
+    {
+      "name": "decayRate",
+      "type": "float"
+    },
+    {
+      "name": "820984601",
+      "type": "uint32"
+    },
+    {
+      "name": "3272917691",
+      "type": "uint32"
+    },
+    {
+      "name": "4099701553",
+      "type": "float"
+    },
+    {
+      "name": "limitDistance",
+      "type": "float"
+    },
+    {
+      "name": "noiseName",
+      "type": "string"
+    },
+    {
+      "name": "power",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
+    }
+  ]
+}

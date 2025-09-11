@@ -1,0 +1,21 @@
+{
+  "name": "FxOrientationVectorNode",
+  "properties": [
+    {
+      "name": "3622744814",
+      "type": "float"
+    },
+    {
+      "name": "3933381822",
+      "type": "float"
+    },
+    {
+      "name": "4286608296",
+      "type": "float"
+    },
+    {
+      "name": "3646305604",
+      "type": "uint32"
+    }
+  ]
+}

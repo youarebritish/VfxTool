@@ -1,26 +1,33 @@
 {
   "name": "FxDistortionMaterialNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownFloat0",
+      "name": "682375124",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "4200016965",
       "type": "float"
     },
     {
-      "name": "unknownInt80",
-      "type": "int8"
+      "name": "softBlend",
+      "type": "bool"
     },
     {
-      "name": "unknownFloat2",
+      "name": "softBlendFactor",
       "type": "float"
     },
     {
-      "name": "texturePath",
+      "name": "textureFile",
       "type": "string"
-    },
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
   ]
 }

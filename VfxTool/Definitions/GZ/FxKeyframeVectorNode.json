@@ -1,66 +1,79 @@
 {
   "name": "FxKeyframeVectorNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "unknownUint0",
+      "name": "638911140",
       "type": "uint32"
-    },  
+    },
     {
-      "name": "unknownUint1",
+      "name": "1304419206",
       "type": "uint32"
-    },  
+    },
     {
-      "name": "unknownUint2",
+      "name": "numX",
       "type": "uint32"
-    },  
+    },
     {
-      "name": "unknownUint3",
+      "name": "1081659345",
       "type": "uint32"
-    },  
+    },
     {
-      "name": "unknownUint4",
+      "name": "2518906774",
       "type": "uint32"
-    },  
+    },
     {
-      "name": "unknownUint5",
+      "name": "2481328801",
       "type": "uint32"
-    },  
+    },
     {
-      "name": "unknownUint6",
+      "name": "timeRatio",
       "type": "uint32"
-    },  
+    },
     {
-      "name": "unknownFloat0",
-      "type": "float"
-    },  
-    {
-      "name": "unknownFloat1",
-      "type": "float"
-    },  
-    {
-      "name": "unknownFloat2",
-      "type": "float"
-    },  
-    {
-      "name": "unknownFloat3",
-      "type": "float"
-    },  
-    {
-      "name": "unknownFloat4",
-      "type": "float"
-    },  
-    {
-      "name": "unknownFloat5",
+      "name": "wTimes",
       "type": "float"
     },
     {
-      "name": "unknownFloat6",
+      "name": "wValues",
       "type": "float"
     },
     {
-      "name": "unknownFloat7",
+      "name": "xTimes",
       "type": "float"
+    },
+    {
+      "name": "xValues",
+      "type": "float"
+    },
+    {
+      "name": "yTimes",
+      "type": "float"
+    },
+    {
+      "name": "yValues",
+      "type": "float"
+    },
+    {
+      "name": "zTimes",
+      "type": "float"
+    },
+    {
+      "name": "zValues",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
     }
   ]
 }

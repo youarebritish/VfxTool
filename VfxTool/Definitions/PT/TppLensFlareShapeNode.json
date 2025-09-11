@@ -1,0 +1,57 @@
+{
+  "name": "TppLensFlareShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "drawPriority",
+      "type": "uint32"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "2802200992",
+      "type": "uint64"
+    },
+    {
+      "name": "lensFlareName",
+      "type": "string"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "receiveName",
+      "type": "string"
+    },
+    {
+      "name": "852104428",
+      "type": "bool"
+    },
+    {
+      "name": "4166394991",
+      "type": "float"
+    }
+  ]
+}

@@ -1,82 +1,89 @@
 {
   "name": "FxDynamicLuminanceMaterialNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "unknownUint0",
+      "name": "blendType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat00",
+      "name": "cameraFadeInFar",
       "type": "float"
     },
     {
-      "name": "unknownFloat01",
+      "name": "cameraFadeInNear",
       "type": "float"
     },
     {
-      "name": "unknownUint3",
-      "type": "uint32"
+      "name": "cameraZOffset",
+      "type": "float"
     },
     {
-      "name": "unknownBool0",
+      "name": "732496415",
       "type": "bool"
     },
     {
-      "name": "unknownString0",
+      "name": "2863484390",
       "type": "string"
     },
     {
-      "name": "unknownFloat0",
+      "name": "maxExposure",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "4228448047",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "minExposure",
       "type": "float"
     },
     {
-      "name": "unknownFloat3",
+      "name": "2878798417",
       "type": "float"
     },
     {
-      "name": "unknownBool1",
+      "name": "opaque",
       "type": "bool"
     },
     {
-      "name": "unknownInt1",
+      "name": "shaderType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat5",
+      "name": "softBlendFactor",
       "type": "float"
     },
     {
-      "name": "unknownfloat6",
+      "name": "textureAnimeBlendFrame",
       "type": "float"
     },
     {
-      "name": "unknownUint6",
+      "name": "textureAnimeBlendHeight",
       "type": "uint32"
     },
     {
-      "name": "unknownInt2",
-      "type": "int32"
+      "name": "textureAnimeBlendWidth",
+      "type": "uint32"
     },
     {
-      "name": "unknownBool3",
+      "name": "textureAnimeClamp",
       "type": "bool"
     },
     {
-      "name": "unknownBool4",
+      "name": "textureAnimeRandomStart",
       "type": "bool"
     },
     {
-      "name": "unknownString1",
+      "name": "textureFile",
       "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
     }
   ]
 }

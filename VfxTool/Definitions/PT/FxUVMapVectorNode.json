@@ -1,0 +1,33 @@
+{
+  "name": "FxUVMapVectorNode",
+  "properties": [
+    {
+      "name": "2663753025",
+      "type": "uint32"
+    },
+    {
+      "name": "487723896",
+      "type": "uint32"
+    },
+    {
+      "name": "2930636785",
+      "type": "bool"
+    },
+    {
+      "name": "2418712811",
+      "type": "bool"
+    },
+    {
+      "name": "1117131291",
+      "type": "Vector4"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

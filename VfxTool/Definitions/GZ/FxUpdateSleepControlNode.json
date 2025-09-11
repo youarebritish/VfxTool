@@ -1,26 +1,33 @@
 {
   "name": "FxUpdateSleepControlNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownFloat0",
+      "name": "cameraDistance",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "50606869",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "3724899095",
       "type": "float"
     },
     {
-      "name": "unknownUint0",
+      "name": "3727536624",
       "type": "uint32"
     },
     {
-      "name": "unknownBool1",
+      "name": "4137342907",
       "type": "bool"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Control"
     }
   ]
 }

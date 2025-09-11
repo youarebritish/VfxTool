@@ -1,0 +1,137 @@
+{
+  "name": "FxTrailShapeNode",
+  "properties": [
+    {
+      "name": "1779815185",
+      "type": "float"
+    },
+    {
+      "name": "2585535592",
+      "type": "bool"
+    },
+    {
+      "name": "1160505244",
+      "type": "float"
+    },
+    {
+      "name": "9062384",
+      "type": "float"
+    },
+    {
+      "name": "4193414775",
+      "type": "float"
+    },
+    {
+      "name": "3943557763",
+      "type": "uint32"
+    },
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "baseSizeScale",
+      "type": "float"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "1901793920",
+      "type": "uint32"
+    },
+    {
+      "name": "1630352762",
+      "type": "uint32"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "2821549548",
+      "type": "uint32"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "2955075554",
+      "type": "bool"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    },
+    {
+      "name": "3243686304",
+      "type": "bool"
+    },
+    {
+      "name": "3634496237",
+      "type": "uint32"
+    },
+    {
+      "name": "2649361627",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Material"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    },
+    {
+      "index": 6,
+      "name": "input6",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
+  ]
+}

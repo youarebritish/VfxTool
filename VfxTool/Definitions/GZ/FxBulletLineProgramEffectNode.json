@@ -1,0 +1,285 @@
+{
+  "name": "FxBulletLineProgramEffectNode",
+  "properties": [
+    {
+      "name": "airResistanceRate",
+      "type": "float"
+    },
+    {
+      "name": "2671849047",
+      "type": "float"
+    },
+    {
+      "name": "1784654160",
+      "type": "float"
+    },
+    {
+      "name": "3541083718",
+      "type": "float"
+    },
+    {
+      "name": "3036110595",
+      "type": "float"
+    },
+    {
+      "name": "2871057974",
+      "type": "float"
+    },
+    {
+      "name": "832067329",
+      "type": "float"
+    },
+    {
+      "name": "156218041",
+      "type": "float"
+    },
+    {
+      "name": "246775443",
+      "type": "float"
+    },
+    {
+      "name": "744680298",
+      "type": "float"
+    },
+    {
+      "name": "1638327024",
+      "type": "float"
+    },
+    {
+      "name": "baseColor",
+      "type": "Vector4"
+    },
+    {
+      "name": "blendType",
+      "type": "uint32"
+    },
+    {
+      "name": "cameraFadeInFar",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInNear",
+      "type": "float"
+    },
+    {
+      "name": "3867353382",
+      "type": "float"
+    },
+    {
+      "name": "1091678553",
+      "type": "float"
+    },
+    {
+      "name": "682375124",
+      "type": "float"
+    },
+    {
+      "name": "4200016965",
+      "type": "float"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "4008090826",
+      "type": "bool"
+    },
+    {
+      "name": "3191592478",
+      "type": "bool"
+    },
+    {
+      "name": "2091167355",
+      "type": "bool"
+    },
+    {
+      "name": "1630352762",
+      "type": "uint32"
+    },
+    {
+      "name": "lifeFrame",
+      "type": "uint32"
+    },
+    {
+      "name": "lineDetail",
+      "type": "uint32"
+    },
+    {
+      "name": "1609540722",
+      "type": "uint32"
+    },
+    {
+      "name": "983221902",
+      "type": "float"
+    },
+    {
+      "name": "808249807",
+      "type": "bool"
+    },
+    {
+      "name": "3972950247",
+      "type": "uint32"
+    },
+    {
+      "name": "lineType",
+      "type": "uint32"
+    },
+    {
+      "name": "3367782886",
+      "type": "Vector4"
+    },
+    {
+      "name": "lineWidth",
+      "type": "float"
+    },
+    {
+      "name": "950484523",
+      "type": "float"
+    },
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "561220650",
+      "type": "string"
+    },
+    {
+      "name": "3853317674",
+      "type": "float"
+    },
+    {
+      "name": "4057842158",
+      "type": "float"
+    },
+    {
+      "name": "2616684887",
+      "type": "float"
+    },
+    {
+      "name": "maxExposure",
+      "type": "float"
+    },
+    {
+      "name": "4228448047",
+      "type": "float"
+    },
+    {
+      "name": "minExposure",
+      "type": "float"
+    },
+    {
+      "name": "2878798417",
+      "type": "float"
+    },
+    {
+      "name": "1080534280",
+      "type": "bool"
+    },
+    {
+      "name": "opaque",
+      "type": "bool"
+    },
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    },
+    {
+      "name": "receiveName",
+      "type": "string"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "shapeType",
+      "type": "uint32"
+    },
+    {
+      "name": "1731846083",
+      "type": "float"
+    },
+    {
+      "name": "674898974",
+      "type": "float"
+    },
+    {
+      "name": "2909865467",
+      "type": "float"
+    },
+    {
+      "name": "847406022",
+      "type": "bool"
+    },
+    {
+      "name": "3317678621",
+      "type": "float"
+    },
+    {
+      "name": "3607384875",
+      "type": "float"
+    },
+    {
+      "name": "2011094925",
+      "type": "uint32"
+    },
+    {
+      "name": "2015013932",
+      "type": "uint32"
+    },
+    {
+      "name": "2928642979",
+      "type": "float"
+    },
+    {
+      "name": "1898441614",
+      "type": "float"
+    },
+    {
+      "name": "3221965433",
+      "type": "float"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    },
+    {
+      "name": "1579736809",
+      "type": "bool"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    },
+    {
+      "name": "3485314171",
+      "type": "uint32"
+    },
+    {
+      "name": "2806768360",
+      "type": "float"
+    },
+    {
+      "name": "461345414",
+      "type": "float"
+    },
+    {
+      "name": "4107931628",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
+    }
+  ]
+}

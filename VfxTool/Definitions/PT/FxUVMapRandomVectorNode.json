@@ -1,0 +1,37 @@
+{
+  "name": "FxUVMapRandomVectorNode",
+  "properties": [
+    {
+      "name": "randomDivisionHeightGrid",
+      "type": "uint32"
+    },
+    {
+      "name": "randomDivisionWidthGrid",
+      "type": "uint32"
+    },
+    {
+      "name": "randomFlipU",
+      "type": "bool"
+    },
+    {
+      "name": "randomFlipV",
+      "type": "bool"
+    },
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

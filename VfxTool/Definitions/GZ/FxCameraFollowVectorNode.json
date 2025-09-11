@@ -1,18 +1,31 @@
 {
   "name": "FxCameraFollowVectorNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "vector1",
+      "name": "1943153362",
       "type": "Vector4"
     },
     {
-      "name": "bool1",
+      "name": "449756553",
       "type": "bool"
     },
     {
-      "name": "bool2",
+      "name": "2224897548",
       "type": "bool"
-    },
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
   ]
 }

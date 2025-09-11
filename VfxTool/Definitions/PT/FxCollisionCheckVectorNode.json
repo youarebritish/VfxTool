@@ -1,0 +1,25 @@
+{
+  "name": "FxCollisionCheckVectorNode",
+  "properties": [
+    {
+      "name": "2616983441",
+      "type": "string"
+    },
+    {
+      "name": "outMode",
+      "type": "uint32"
+    },
+    {
+      "name": "1305041742",
+      "type": "string"
+    },
+    {
+      "name": "power",
+      "type": "float"
+    },
+    {
+      "name": "1865931539",
+      "type": "string"
+    }
+  ]
+}

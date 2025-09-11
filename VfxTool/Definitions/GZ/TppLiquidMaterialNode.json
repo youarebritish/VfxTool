@@ -1,90 +1,91 @@
 {
   "name": "TppLiquidMaterialNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownVector40",
+      "name": "2496450008",
       "type": "Vector4"
     },
     {
-      "name": "unknownFloat00",
+      "name": "3921605805",
       "type": "float"
     },
     {
-      "name": "unknownFloat01",
+      "name": "1378815363",
       "type": "float"
     },
     {
-      "name": "unknownFloat0",
+      "name": "3696679818",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "1856251406",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "4100939775",
       "type": "float"
     },
     {
-      "name": "unknownUint2",
+      "name": "2107544923",
+      "type": "float"
+    },
+    {
+      "name": "630832613",
+      "type": "float"
+    },
+    {
+      "name": "2596658434",
+      "type": "float"
+    },
+    {
+      "name": "108422851",
+      "type": "float"
+    },
+    {
+      "name": "opaque",
+      "type": "bool"
+    },
+    {
+      "name": "shadowed",
+      "type": "bool"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "speculerPower",
+      "type": "float"
+    },
+    {
+      "name": "speculerSharpness",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat3",
+      "name": "2359260809",
       "type": "float"
     },
     {
-      "name": "unknownFloat4",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat5",
-      "type": "float"
-    },
-    {
-      "name": "unknownInt8OrBool0",
-      "type": "int8"
-    },
-    {
-      "name": "unknownInt8OrBool1",
-      "type": "int8"
-    },
-    {
-      "name": "unknownInt8OrBool2",
-      "type": "int8"
-    },
-    {
-      "name": "unknownFloat6",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat7",
-      "type": "float"
-    },
-    {
-      "name": "unknownFloat8",
-      "type": "float"
-    },
-    {
-      "name": "unknownUint3",
+      "name": "textureAnimeBlendWidth",
       "type": "uint32"
     },
     {
-      "name": "unknownUint4",
-      "type": "uint32"
+      "name": "textureAnimeRandomStart",
+      "type": "bool"
     },
     {
-      "name": "unknownUint5",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownInt8OrBool3",
-      "type": "int8"
-    },
-    {
-      "name": "texturePath",
+      "name": "textureFile",
       "type": "string"
-    },
-  ]
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
 }

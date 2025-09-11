@@ -1,0 +1,89 @@
+{
+  "name": "FxDynamicLuminanceMaterialNode",
+  "properties": [
+    {
+      "name": "blendType",
+      "type": "uint32"
+    },
+    {
+      "name": "cameraFadeInFar",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInNear",
+      "type": "float"
+    },
+    {
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "732496415",
+      "type": "bool"
+    },
+    {
+      "name": "2863484390",
+      "type": "string"
+    },
+    {
+      "name": "maxExposure",
+      "type": "float"
+    },
+    {
+      "name": "4228448047",
+      "type": "float"
+    },
+    {
+      "name": "minExposure",
+      "type": "float"
+    },
+    {
+      "name": "2878798417",
+      "type": "float"
+    },
+    {
+      "name": "opaque",
+      "type": "bool"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendFrame",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeBlendWidth",
+      "type": "uint32"
+    },
+    {
+      "name": "textureAnimeClamp",
+      "type": "bool"
+    },
+    {
+      "name": "textureAnimeRandomStart",
+      "type": "bool"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

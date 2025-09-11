@@ -1,10 +1,17 @@
 {
   "name": "FxConstLifeNode",
-  "properties":
-  [
+  "properties": [
     {
       "name": "lifeFrame",
       "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Life"
     }
   ]
 }

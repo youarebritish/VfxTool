@@ -1,0 +1,29 @@
+{
+  "name": "FxConstVectorNode",
+  "properties": [
+    {
+      "name": "force",
+      "type": "float"
+    },
+    {
+      "name": "global",
+      "type": "bool"
+    },
+    {
+      "name": "vector",
+      "type": "Vector4"
+    },
+    {
+      "name": "vectorType",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

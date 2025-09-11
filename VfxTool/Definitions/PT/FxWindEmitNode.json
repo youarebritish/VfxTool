@@ -1,0 +1,29 @@
+{
+  "name": "FxWindEmitNode",
+  "properties": [
+    {
+      "name": "3272917691",
+      "type": "uint32"
+    },
+    {
+      "name": "4006034187",
+      "type": "float"
+    },
+    {
+      "name": "3321036566",
+      "type": "float"
+    },
+    {
+      "name": "1115694409",
+      "type": "float"
+    },
+    {
+      "name": "sensitivity",
+      "type": "float"
+    },
+    {
+      "name": "2915323729",
+      "type": "float"
+    }
+  ]
+}

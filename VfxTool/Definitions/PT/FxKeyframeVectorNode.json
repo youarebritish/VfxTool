@@ -1,0 +1,79 @@
+{
+  "name": "FxKeyframeVectorNode",
+  "properties": [
+    {
+      "name": "638911140",
+      "type": "uint32"
+    },
+    {
+      "name": "1304419206",
+      "type": "uint32"
+    },
+    {
+      "name": "numX",
+      "type": "uint32"
+    },
+    {
+      "name": "1081659345",
+      "type": "uint32"
+    },
+    {
+      "name": "2518906774",
+      "type": "uint32"
+    },
+    {
+      "name": "2481328801",
+      "type": "uint32"
+    },
+    {
+      "name": "timeRatio",
+      "type": "uint32"
+    },
+    {
+      "name": "wTimes",
+      "type": "float"
+    },
+    {
+      "name": "wValues",
+      "type": "float"
+    },
+    {
+      "name": "xTimes",
+      "type": "float"
+    },
+    {
+      "name": "xValues",
+      "type": "float"
+    },
+    {
+      "name": "yTimes",
+      "type": "float"
+    },
+    {
+      "name": "yValues",
+      "type": "float"
+    },
+    {
+      "name": "zTimes",
+      "type": "float"
+    },
+    {
+      "name": "zValues",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

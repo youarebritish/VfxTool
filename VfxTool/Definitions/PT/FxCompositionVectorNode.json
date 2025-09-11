@@ -1,0 +1,44 @@
+{
+  "name": "FxCompositionVectorNode",
+  "properties": [
+    {
+      "name": "maskValue",
+      "type": "float"
+    },
+    {
+      "name": "secondMaskW",
+      "type": "bool"
+    },
+    {
+      "name": "secondMaskX",
+      "type": "bool"
+    },
+    {
+      "name": "secondMaskY",
+      "type": "bool"
+    },
+    {
+      "name": "secondMaskZ",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Vector"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

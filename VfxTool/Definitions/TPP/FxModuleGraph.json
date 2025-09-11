@@ -23,7 +23,7 @@
     },
     {
       "name": "effectName",
-      "type": "uint64"
+      "type": "StrCode"
     },
     {
       "name": "executionPriorityType",

@@ -1,0 +1,13 @@
+{
+  "name": "FxApplyRandomVectorNode",
+  "properties": [
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    }
+  ]
+}

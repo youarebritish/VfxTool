@@ -1,7 +1,6 @@
 {
   "name": "FxConstVectorNode",
-  "properties":
-  [
+  "properties": [
     {
       "name": "force",
       "type": "float"
@@ -16,7 +15,15 @@
     },
     {
       "name": "vectorType",
-      "type": "int32"
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
     }
   ]
 }

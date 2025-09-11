@@ -1,50 +1,57 @@
 {
   "name": "FxSoundCallProgramEffectNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "bool1",
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "936199292",
+      "type": "bool"
+    },
+    {
+      "name": "enableLod",
+      "type": "bool"
+    },
+    {
+      "name": "2260070409",
+      "type": "bool"
+    },
+    {
+      "name": "1324659174",
+      "type": "bool"
+    },
+    {
+      "name": "281676584",
       "type": "bool"
     },
 	{
-      "name": "bool2",
-      "type": "bool"
+      "name": "3819555546",
+      "type": "uint32"
     },
 	{
-      "name": "bool3",
-      "type": "bool"
-    },
-	{
-      "name": "bool4",
-      "type": "bool"
-    },
-	{
-      "name": "bool5",
-      "type": "bool"
-    },
-	{
-      "name": "bool6",
-      "type": "bool"
-    },
-	{
-      "name": "int1",
-      "type": "int"
-    },
-	{
-      "name": "float1",
+      "name": "lodDistance",
       "type": "float"
     },
-	{
-      "name": "str1",
+    {
+      "name": "signalName",
       "type": "string"
     },
-	{
-      "name": "str2",
+    {
+      "name": "soundEvent",
       "type": "string"
     },
-	{
-      "name": "str3",
+    {
+      "name": "soundStop",
       "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
     }
   ]
 }

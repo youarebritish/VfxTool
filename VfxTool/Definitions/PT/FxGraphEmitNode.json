@@ -1,0 +1,37 @@
+{
+  "name": "FxGraphEmitNode",
+  "properties": [
+    {
+      "name": "2760125944",
+      "type": "float"
+    },
+    {
+      "name": "1768136223",
+      "type": "float"
+    },
+    {
+      "name": "2619248575",
+      "type": "float"
+    },
+    {
+      "name": "548128066",
+      "type": "float"
+    },
+    {
+      "name": "765669443",
+      "type": "uint32"
+    },
+    {
+      "name": "704862173",
+      "type": "bool"
+    },
+    {
+      "name": "times",
+      "type": "float"
+    },
+    {
+      "name": "values",
+      "type": "float"
+    }
+  ]
+}

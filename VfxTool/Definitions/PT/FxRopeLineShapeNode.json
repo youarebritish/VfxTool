@@ -1,0 +1,53 @@
+{
+  "name": "FxRopeLineShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "centerU",
+      "type": "float"
+    },
+    {
+      "name": "centerV",
+      "type": "float"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "statisticsWords",
+      "type": "uint32"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    },
+    {
+      "name": "spline",
+      "type": "bool"
+    }
+  ]
+}

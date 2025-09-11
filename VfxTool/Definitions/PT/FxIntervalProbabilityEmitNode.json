@@ -1,0 +1,65 @@
+{
+  "name": "FxIntervalProbabilityEmitNode",
+  "properties": [
+    {
+      "name": "delayFrame",
+      "type": "uint32"
+    },
+    {
+      "name": "delayFrameRandomRange",
+      "type": "uint32"
+    },
+	{
+	  "name": "fadeOutPosition",
+	  "type": "float"
+	},
+	{
+	  "name": "fadeOutReverse",
+	  "type": "bool"
+	},
+	{
+	  "name": "intervalFrame",
+	  "type": "uint32"
+	},
+	{
+	  "name": "lifeFrame",
+	  "type": "uint32"
+	},
+	{
+	  "name": "lifeRandomRangeFrame",
+	  "type": "uint32"
+	},
+	{
+	  "name": "numMax",
+	  "type": "uint32"
+	},
+	{
+	  "name": "numMin",
+	  "type": "uint32"
+	},
+	{
+	  "name": "probability",
+	  "type": "float"
+	},
+	{
+	  "name": "randomGatherSeedValue",
+	  "type": "uint32"
+	},
+	{
+	  "name": "randomGatherType",
+      "type": "uint32"
+	},
+	{
+	  "name": "receiveName",
+	  "type": "string"
+	}
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Emit"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "FxLodVectorNode",
+  "properties": [
+    {
+      "name": "3724899095",
+      "type": "float"
+    },
+    {
+      "name": "693652256",
+      "type": "float"
+    },
+    {
+      "name": "2424085996",
+      "type": "float"
+    },
+    {
+      "name": "275696967",
+      "type": "float"
+    },
+    {
+      "name": "17738138",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

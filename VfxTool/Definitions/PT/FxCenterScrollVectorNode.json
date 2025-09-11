@@ -1,0 +1,31 @@
+{
+  "name": "FxCenterScrollVectorNode",
+  "properties": [
+    {
+      "name": "2861610674",
+      "type": "bool"
+    },
+    {
+      "name": "poolName",
+      "type": "string"
+    },
+    {
+      "name": "range",
+      "type": "Vector4"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

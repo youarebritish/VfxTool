@@ -1,0 +1,49 @@
+{
+  "name": "FxReceiveVectorNode",
+  "properties": [
+    {
+      "name": "2491763085",
+      "type": "bool"
+    },
+    {
+      "name": "defaultVector",
+      "type": "Vector4"
+    },
+    {
+      "name": "force",
+      "type": "float"
+    },
+    {
+      "name": "global",
+      "type": "bool"
+    },
+    {
+      "name": "4199344803",
+      "type": "bool"
+    },
+    {
+      "name": "40550591",
+      "type": "bool"
+    },
+    {
+      "name": "2651618402",
+      "type": "bool"
+    },
+    {
+      "name": "4086542560",
+      "type": "bool"
+    },
+    {
+      "name": "receiveName",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "WindFxWindFlowVectorNode",
+  "properties": [
+    {
+      "name": "airResistanceRate",
+      "type": "float"
+    },
+    {
+      "name": "3044230928",
+      "type": "float"
+    },
+    {
+      "name": "321021984",
+      "type": "bool"
+    }
+  ]
+}

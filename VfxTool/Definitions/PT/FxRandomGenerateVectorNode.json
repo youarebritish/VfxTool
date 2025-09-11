@@ -1,0 +1,47 @@
+{
+  "name": "FxRandomGenerateVectorNode",
+  "properties": [
+    {
+      "name": "force",
+      "type": "float"
+    },
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    },
+    {
+      "name": "randomMax",
+      "type": "Vector4"
+    },
+    {
+      "name": "randomMin",
+      "type": "Vector4"
+    },
+    {
+      "name": "vectorType",
+      "type": "uint32"
+    },
+    {
+      "name": "xySquere",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

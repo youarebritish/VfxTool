@@ -1,50 +1,63 @@
 {
   "name": "FxSpreadVectorNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownFloat1",
+      "name": "elevation",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "force",
       "type": "float"
     },
     {
-      "name": "unknownFloat3",
+      "name": "4016390765",
       "type": "float"
     },
     {
-      "name": "unknownInt1",
-      "type": "int32"
+      "name": "forceType",
+      "type": "uint32"
     },
     {
-      "name": "unknownBool1",
+      "name": "global",
       "type": "bool"
     },
     {
-      "name": "unknownBool2",
+      "name": "3639639741",
       "type": "bool"
     },
     {
-      "name": "unknownBool3",
+      "name": "3870721126",
       "type": "bool"
     },
     {
-      "name": "unknownInt2",
-      "type": "int32"
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
     },
     {
-      "name": "unknownInt3",
-      "type": "int32"
+      "name": "randomGatherType",
+      "type": "uint32"
     },
     {
-      "name": "unknownFloat4",
+      "name": "rangeAngle",
       "type": "float"
     },
     {
-      "name": "unknownVector",
+      "name": "95707891",
       "type": "Vector4"
-    },
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
   ]
 }

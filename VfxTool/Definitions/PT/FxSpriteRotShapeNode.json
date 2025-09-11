@@ -1,0 +1,110 @@
+{
+  "name": "FxSpriteRotShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "centerU",
+      "type": "float"
+    },
+    {
+      "name": "centerV",
+      "type": "float"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "1135931982",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "2486767025",
+      "type": "bool"
+    },
+    {
+      "name": "3842067483",
+      "type": "bool"
+    },
+    {
+      "name": "sortMode",
+      "type": "uint32"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Material"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    },
+    {
+      "index": 6,
+      "name": "input6",
+      "type": "Vector"
+    },
+    {
+      "index": 7,
+      "name": "input7",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
+  ]
+}

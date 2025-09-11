@@ -1,0 +1,25 @@
+{
+  "name": "FxReceiveLifeNode",
+  "properties": [
+    {
+      "name": "2554849480",
+      "type": "uint32"
+    },
+    {
+      "name": "3333938272",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    },
+    {
+      "name": "receiveName",
+      "type": "string"
+    }
+  ]
+}

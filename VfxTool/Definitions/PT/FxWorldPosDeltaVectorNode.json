@@ -1,0 +1,25 @@
+{
+  "name": "FxWorldPosDeltaVectorNode",
+  "properties": [
+    {
+      "name": "delayTime",
+      "type": "float"
+    },
+    {
+      "name": "2147942414",
+      "type": "float"
+    },
+    {
+      "name": "scale",
+      "type": "float"
+    },
+    {
+      "name": "1375233937",
+      "type": "bool"
+    },
+    {
+      "name": "3213849020",
+      "type": "float"
+    }
+  ]
+}

@@ -1,58 +1,65 @@
 {
   "name": "TppRainMaterialNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownInt80",
-      "type": "int8"
+      "name": "addBlend",
+      "type": "bool"
     },
     {
-      "name": "unknownVector40",
+      "name": "932816269",
       "type": "Vector4"
     },
     {
-      "name": "unknownInt81",
-      "type": "int8"
+      "name": "applyThunder",
+      "type": "bool"
     },
     {
-      "name": "unknownFloat0",
+      "name": "diffuseScale",
       "type": "float"
     },
     {
-      "name": "texturePath_albedo",
+      "name": "3554327734",
       "type": "string"
     },
     {
-      "name": "unknownInt82",
-      "type": "int8"
+      "name": "2823869891",
+      "type": "bool"
     },
     {
-      "name": "unknownVector41",
+      "name": "4084937760",
       "type": "Vector4"
     },
     {
-      "name": "unknownVector42",
+      "name": "3131672011",
       "type": "Vector4"
     },
     {
-      "name": "texturePath_normal",
+      "name": "755338348",
       "type": "string"
     },
     {
-      "name": "unknownInt83",
-      "type": "int8"
+      "name": "softBlend",
+      "type": "bool"
     },
     {
-      "name": "unknownFloat1",
+      "name": "softBlendFactor",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "speculerPower",
       "type": "float"
     },
     {
-      "name": "unknownFloat3",
+      "name": "speculerSharpness",
       "type": "float"
-    },
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
   ]
 }

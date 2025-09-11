@@ -1,0 +1,57 @@
+{
+  "name": "FxUVAnimeIntervalVectorNode",
+  "properties": [
+    {
+      "name": "3954139986",
+      "type": "float"
+    },
+    {
+      "name": "clamp",
+      "type": "bool"
+    },
+    {
+      "name": "2663753025",
+      "type": "uint32"
+    },
+    {
+      "name": "487723896",
+      "type": "uint32"
+    },
+    {
+      "name": "2930636785",
+      "type": "bool"
+    },
+    {
+      "name": "2418712811",
+      "type": "bool"
+    },
+    {
+      "name": "randomFlipU",
+      "type": "bool"
+    },
+    {
+      "name": "randomFlipV",
+      "type": "bool"
+    },
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    },
+    {
+      "name": "randomStart",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

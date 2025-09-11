@@ -1,0 +1,53 @@
+{
+    "name": "SsdGeneralLocusProgramEffectNode",
+    "properties": [
+      {
+        "name": "unknownA",
+        "type": "bool"
+      },
+      {
+        "name": "unknownB",
+        "type": "Vector4"
+      },
+      {
+        "name": "unknownC",
+        "type": "float"
+      },
+      {
+        "name": "unknownD",
+        "type": "bool"
+      },
+      {
+        "name": "unknownE",
+        "type": "float"
+      },
+      {
+        "name": "unknownF",
+        "type": "float"
+      },
+      {
+        "name": "unknownG",
+        "type": "int"
+      },
+      {
+        "name": "unknownH",
+        "type": "int"
+      },
+      {
+        "name": "unknownI",
+        "type": "int"
+      },
+      {
+        "name": "unknownJ",
+        "type": "string"
+      },
+      {
+        "name": "unknownK",
+        "type": "Vector4"
+      },
+      {
+        "name": "unknownL",
+        "type": "bool"
+      }
+    ]
+  }

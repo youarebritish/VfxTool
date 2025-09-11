@@ -42,10 +42,18 @@ namespace VfxTool
             return edge;
         }
 
-        public void Write(BinaryWriter writer)
+        public void Write(BinaryWriter writer, NodeIndexSize nodeIndexSize)
         {
-            writer.Write((byte)this.sourceNodeIndex);
-            writer.Write((byte)this.targetNodeIndex);
+            if (nodeIndexSize == NodeIndexSize.UInt8)
+            {
+                writer.Write((byte)this.sourceNodeIndex);
+                writer.Write((byte)this.targetNodeIndex);
+            }
+            else
+            {
+                writer.Write((ushort)this.sourceNodeIndex);
+                writer.Write((ushort)this.targetNodeIndex);
+            }
             writer.Write((byte)this.sourcePortType);
             writer.Write((byte)this.sourcePortIndex);
             writer.Write((byte)this.targetPortType);
@@ -59,8 +67,8 @@ namespace VfxTool
 
         public void ReadXml(XmlReader reader)
         {
-            this.sourceNodeIndex = byte.Parse(reader["sourceNodeIndex"]);
-            this.targetNodeIndex = byte.Parse(reader["targetNodeIndex"]);
+            this.sourceNodeIndex = ushort.Parse(reader["sourceNodeIndex"]);
+            this.targetNodeIndex = ushort.Parse(reader["targetNodeIndex"]);
             this.sourcePortType = byte.Parse(reader["sourcePortType"]);
             this.sourcePortIndex = byte.Parse(reader["sourcePortIndex"]);
             this.targetPortType = byte.Parse(reader["targetPortType"]);

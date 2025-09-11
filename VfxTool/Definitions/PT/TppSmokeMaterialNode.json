@@ -1,0 +1,49 @@
+{
+  "name": "TppSmokeMaterialNode",
+  "properties": [
+    {
+      "name": "ambientRate",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInFar",
+      "type": "float"
+    },
+    {
+      "name": "cameraFadeInNear",
+      "type": "float"
+    },
+    {
+      "name": "directionalLightRate",
+      "type": "float"
+    },
+    {
+      "name": "755338348",
+      "type": "string"
+    },
+    {
+      "name": "pointLightRate",
+      "type": "float"
+    },
+    {
+      "name": "receiveShadowMap",
+      "type": "bool"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ]
+}

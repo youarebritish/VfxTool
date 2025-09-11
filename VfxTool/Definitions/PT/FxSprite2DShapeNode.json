@@ -1,0 +1,108 @@
+{
+  "name": "FxSprite2DShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "2436256153",
+      "type": "uint32"
+    },
+    {
+      "name": "855581267",
+      "type": "uint32"
+    },
+    {
+      "name": "3724678669",
+      "type": "uint32"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "centerU",
+      "type": "float"
+    },
+    {
+      "name": "centerV",
+      "type": "float"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "1517684507",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "priority",
+      "type": "uint32"
+    },
+    {
+      "name": "1429770645",
+      "type": "bool"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Emit"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Life"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Vector"
+    },
+    {
+      "index": 3,
+      "name": "input3",
+      "type": "Vector"
+    },
+    {
+      "index": 4,
+      "name": "input4",
+      "type": "Vector"
+    },
+    {
+      "index": 5,
+      "name": "input5",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Shape"
+    }
+  ]
+}

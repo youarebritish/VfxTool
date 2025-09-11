@@ -1,0 +1,25 @@
+{
+  "name": "WindFxVectorNode",
+  "properties": [
+    {
+      "name": "airResistanceRate",
+      "type": "float"
+    },
+    {
+      "name": "1080534280",
+      "type": "bool"
+    },
+    {
+      "name": "3591661211",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "FxSpreadVectorNode",
+  "properties": [
+    {
+      "name": "elevation",
+      "type": "float"
+    },
+    {
+      "name": "force",
+      "type": "float"
+    },
+    {
+      "name": "4016390765",
+      "type": "float"
+    },
+    {
+      "name": "forceType",
+      "type": "uint32"
+    },
+    {
+      "name": "global",
+      "type": "bool"
+    },
+    {
+      "name": "3639639741",
+      "type": "bool"
+    },
+    {
+      "name": "3870721126",
+      "type": "bool"
+    },
+    {
+      "name": "randomGatherSeedValue",
+      "type": "uint32"
+    },
+    {
+      "name": "randomGatherType",
+      "type": "uint32"
+    },
+    {
+      "name": "rangeAngle",
+      "type": "float"
+    },
+    {
+      "name": "95707891",
+      "type": "Vector4"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

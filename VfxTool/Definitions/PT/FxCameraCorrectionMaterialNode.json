@@ -1,0 +1,121 @@
+{
+  "name": "FxCameraCorrectionMaterialNode",
+  "properties": [
+    {
+      "name": "blendType",
+      "type": "uint32"
+    },
+    {
+      "name": "607494993",
+      "type": "float"
+    },
+    {
+      "name": "3186344948",
+      "type": "float"
+    },
+    {
+      "name": "1015179868",
+      "type": "float"
+    },
+    {
+      "name": "636437219",
+      "type": "float"
+    },
+    {
+      "name": "61712148",
+      "type": "float"
+    },
+    {
+      "name": "2006616130",
+      "type": "float"
+    },
+    {
+      "name": "1968464649",
+      "type": "float"
+    },
+    {
+      "name": "2548066939",
+      "type": "float"
+    },
+    {
+      "name": "4220468991",
+      "type": "float"
+    },
+    {
+      "name": "580268846",
+      "type": "float"
+    },
+    {
+      "name": "3731503007",
+      "type": "float"
+    },
+    {
+      "name": "633951271",
+      "type": "float"
+    },
+    {
+      "name": "1759788148",
+      "type": "float"
+    },
+    {
+      "name": "1788980476",
+      "type": "float"
+    },
+    {
+      "name": "4273359573",
+      "type": "float"
+    },
+    {
+      "name": "49122293",
+      "type": "float"
+    },
+    {
+      "name": "480098159",
+      "type": "float"
+    },
+    {
+      "name": "2410673177",
+      "type": "float"
+    },
+    {
+      "name": "2648852009",
+      "type": "float"
+    },
+    {
+      "name": "373957993",
+      "type": "float"
+    },
+    {
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "2079815021",
+      "type": "float"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

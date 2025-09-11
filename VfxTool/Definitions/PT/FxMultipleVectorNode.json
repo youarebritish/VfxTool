@@ -1,0 +1,29 @@
+{
+  "name": "FxMultipleVectorNode",
+  "properties": [
+    {
+      "name": "defaultVectors",
+      "type": "Vector4"
+    },
+    {
+      "name": "global",
+      "type": "bool"
+    },
+    {
+      "name": "receiveName",
+      "type": "string"
+    },
+    {
+      "name": "vectorType",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "TppScatteringMaterialNode",
+  "properties": [
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "2305586993",
+      "type": "float"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

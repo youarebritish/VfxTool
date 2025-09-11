@@ -1,90 +1,97 @@
 {
   "name": "TppLiquidMaterial2Node",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownFloat0",
+      "name": "ambientRate",
       "type": "float"
     },
     {
-      "name": "unknownUint0",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownUint1",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownUint2",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownFloat1",
+      "name": "cameraFadeInFar",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "cameraFadeInNear",
       "type": "float"
     },
     {
-      "name": "unknownBool0",
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "directionalLightRate",
+      "type": "float"
+    },
+    {
+      "name": "4138820675",
+      "type": "float"
+    },
+    {
+      "name": "opaque",
       "type": "bool"
     },
     {
-      "name": "unknownFloat3",
+      "name": "pointLightRate",
       "type": "float"
     },
     {
-      "name": "unknownUint3",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownFloat2_9",
+      "name": "2061120325",
       "type": "float"
     },
     {
-      "name": "unknownFloat4",
+      "name": "4291145388",
       "type": "float"
     },
     {
-      "name": "unknownFloat5",
+      "name": "3528319072",
       "type": "float"
     },
     {
-      "name": "unknownBool2",
+      "name": "roughness",
+      "type": "float"
+    },
+    {
+      "name": "softBlend",
       "type": "bool"
     },
     {
-      "name": "unknownFloat6_81",
+      "name": "softBlendFactor",
       "type": "float"
     },
     {
-      "name": "unknownUint5",
+      "name": "textureAnimeBlendFrame",
+      "type": "float"
+    },
+    {
+      "name": "textureAnimeBlendHeight",
       "type": "uint32"
     },
     {
-      "name": "unknownUint7",
+      "name": "textureAnimeBlendWidth",
       "type": "uint32"
     },
     {
-      "name": "unknownUint8",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownBool3",
+      "name": "textureAnimeClamp",
       "type": "bool"
     },
     {
-      "name": "unknownBool4",
+      "name": "textureAnimeRandomStart",
       "type": "bool"
     },
     {
-      "name": "texturePath",
+      "name": "textureFile",
       "type": "string"
     },
     {
-      "name": "unknownFloat7",
+      "name": "transparency",
       "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
     }
   ]
 }

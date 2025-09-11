@@ -1,0 +1,31 @@
+{
+  "name": "FxPoolVectorNode",
+  "properties": [
+    {
+      "name": "addPool",
+      "type": "bool"
+    },
+    {
+      "name": "cameraCoordinate",
+      "type": "bool"
+    },
+    {
+      "name": "634736624",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

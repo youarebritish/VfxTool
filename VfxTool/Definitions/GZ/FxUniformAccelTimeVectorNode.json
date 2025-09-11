@@ -1,5 +1,28 @@
 {
   "name": "FxUniformAccelTimeVectorNode",
-  "properties":
-  []
+  "properties": [],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input0",
+      "type": "Vector"
+    },
+    {
+      "index": 1,
+      "name": "input1",
+      "type": "Vector"
+    },
+    {
+      "index": 2,
+      "name": "input2",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
 }

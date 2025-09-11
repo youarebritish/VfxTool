@@ -1,0 +1,37 @@
+{
+  "name": "FxOrientationAnimeVectorNode",
+  "properties": [
+    {
+      "name": "1717753850",
+      "type": "uint32"
+    },
+    {
+      "name": "2412947007",
+      "type": "uint32"
+    },
+    {
+      "name": "endAngle",
+      "type": "Vector4"
+    },
+    {
+      "name": "endRot",
+      "type": "Vector4"
+    },
+    {
+      "name": "3481672131",
+      "type": "bool"
+    },
+    {
+      "name": "rotateType",
+      "type": "uint32"
+    },
+    {
+      "name": "startAngle",
+      "type": "Vector4"
+    },
+    {
+      "name": "startRot",
+      "type": "Vector4"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "FxTimeScaleVectorNode",
+  "properties": [
+    {
+      "name": "endScale",
+      "type": "float"
+    },
+    {
+      "name": "maskW",
+      "type": "bool"
+    },
+    {
+      "name": "maskX",
+      "type": "bool"
+    },
+    {
+      "name": "maskY",
+      "type": "bool"
+    },
+    {
+      "name": "maskZ",
+      "type": "bool"
+    },
+    {
+      "name": "startScale",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

@@ -51,7 +51,7 @@
     },
     {
       "name": "modelFile",
-      "type": "uint64"
+      "type": "PathCode64Ext"
     },
     {
       "name": "nearClipScale",

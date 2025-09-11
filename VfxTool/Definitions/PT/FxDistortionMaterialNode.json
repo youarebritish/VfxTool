@@ -1,0 +1,33 @@
+{
+  "name": "FxDistortionMaterialNode",
+  "properties": [
+    {
+      "name": "682375124",
+      "type": "float"
+    },
+    {
+      "name": "4200016965",
+      "type": "float"
+    },
+    {
+      "name": "softBlend",
+      "type": "bool"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

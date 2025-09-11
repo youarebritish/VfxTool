@@ -1,0 +1,21 @@
+{
+  "name": "FxDistanceNumEmitNode",
+  "properties": [
+    {
+      "name": "correctDistance",
+      "type": "float"
+    },
+    {
+      "name": "2573868566",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Emit"
+    }
+  ]
+}

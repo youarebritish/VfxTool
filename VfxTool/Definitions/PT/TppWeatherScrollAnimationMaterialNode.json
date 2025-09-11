@@ -1,0 +1,85 @@
+{
+  "name": "TppWeatherScrollAnimationMaterialNode",
+  "properties": [
+    {
+      "name": "blendType",
+      "type": "uint32"
+    },
+    {
+      "name": "cameraZOffset",
+      "type": "float"
+    },
+    {
+      "name": "luminance",
+      "type": "float"
+    },
+    {
+      "name": "325373566",
+      "type": "float"
+    },
+    {
+      "name": "2897268155",
+      "type": "float"
+    },
+    {
+      "name": "1804078712",
+      "type": "float"
+    },
+    {
+      "name": "4053993707",
+      "type": "float"
+    },
+    {
+      "name": "2582261602",
+      "type": "float"
+    },
+    {
+      "name": "528383223",
+      "type": "float"
+    },
+    {
+      "name": "670195680",
+      "type": "float"
+    },
+    {
+      "name": "4152204778",
+      "type": "string"
+    },
+    {
+      "name": "4227848729",
+      "type": "float"
+    },
+    {
+      "name": "shaderType",
+      "type": "uint32"
+    },
+    {
+      "name": "softBlendFactor",
+      "type": "float"
+    },
+    {
+      "name": "textureFile",
+      "type": "string"
+    },
+    {
+      "name": "1230944882",
+      "type": "float"
+    },
+    {
+      "name": "3987323899",
+      "type": "float"
+    },
+    {
+      "name": "858640587",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
+  ]
+}

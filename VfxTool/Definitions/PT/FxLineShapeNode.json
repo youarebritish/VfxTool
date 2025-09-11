@@ -1,0 +1,49 @@
+{
+  "name": "FxLineShapeNode",
+  "properties": [
+    {
+      "name": "autoBoundingBoxMargin",
+      "type": "Vector4"
+    },
+    {
+      "name": "boundingBoxType",
+      "type": "uint32"
+    },
+    {
+      "name": "enable",
+      "type": "bool"
+    },
+    {
+      "name": "1135931982",
+      "type": "bool"
+    },
+    {
+      "name": "localSpace",
+      "type": "bool"
+    },
+    {
+      "name": "manualBoundingBoxOffset",
+      "type": "Vector4"
+    },
+    {
+      "name": "manualBoundingBoxSize",
+      "type": "Vector4"
+    },
+    {
+      "name": "numSimulatedMaxParticle",
+      "type": "uint32"
+    },
+    {
+      "name": "sortMode",
+      "type": "uint32"
+    },
+    {
+      "name": "sortOffset",
+      "type": "float"
+    },
+    {
+      "name": "width",
+      "type": "float"
+    }
+  ]
+}

@@ -1,5 +1,18 @@
 {
   "name": "FxInfinityLifeNode",
-  "properties": 
-  []
+  "properties": [],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Life"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Life"
+    }
+  ]
 }

@@ -5,7 +5,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace LbaTool
+namespace VfxTool
 {
     [DebuggerDisplay("x = {X}, y = {Y}, z = {Z}, w = {W}")]
     public class Vector4 : IXmlSerializable

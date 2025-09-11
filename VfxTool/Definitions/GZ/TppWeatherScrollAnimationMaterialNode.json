@@ -1,78 +1,85 @@
 {
   "name": "TppWeatherScrollAnimationMaterialNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownInt0",
+      "name": "blendType",
       "type": "uint32"
     },
     {
-      "name": "unknownInt1",
-      "type": "uint32"
-    },
-    {
-      "name": "unknownFloat0",
+      "name": "cameraZOffset",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "luminance",
       "type": "float"
     },
     {
-      "name": "unknownFloat2",
+      "name": "325373566",
       "type": "float"
     },
     {
-      "name": "unknownFloat3",
+      "name": "2897268155",
       "type": "float"
     },
     {
-      "name": "unknownFloat4",
+      "name": "1804078712",
       "type": "float"
     },
     {
-      "name": "unknownFloat5",
+      "name": "4053993707",
       "type": "float"
     },
     {
-      "name": "unknownFloat6",
+      "name": "2582261602",
       "type": "float"
     },
     {
-      "name": "unknownFloat7",
+      "name": "528383223",
       "type": "float"
     },
     {
-      "name": "unknownString0",
+      "name": "670195680",
+      "type": "float"
+    },
+    {
+      "name": "4152204778",
       "type": "string"
     },
     {
-      "name": "unknownFloat8",
+      "name": "4227848729",
       "type": "float"
     },
     {
-      "name": "unknownInt2",
+      "name": "shaderType",
       "type": "uint32"
     },
     {
-      "name": "unknownFloat9",
+      "name": "softBlendFactor",
       "type": "float"
     },
     {
-      "name": "unknownString1",
+      "name": "textureFile",
       "type": "string"
     },
     {
-      "name": "unknownFloat10",
+      "name": "1230944882",
       "type": "float"
     },
     {
-      "name": "unknownFloat11",
+      "name": "3987323899",
       "type": "float"
     },
     {
-      "name": "unknownFloat12",
+      "name": "858640587",
       "type": "float"
-    },
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Material"
+    }
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "name": "TppLensFlareProgramEffectNode",
+  "properties": [
+    {
+      "name": "baseDistance",
+      "type": "float"
+    },
+    {
+      "name": "drawPriority",
+      "type": "uint32"
+    },
+    {
+      "name": "2802200992",
+      "type": "uint64"
+    },
+    {
+      "name": "lensFlareName",
+      "type": "string"
+    },
+    {
+      "name": "limitDistance",
+      "type": "float"
+    },
+    {
+      "name": "641919330",
+      "type": "float"
+    },
+    {
+      "name": "lux",
+      "type": "float"
+    },
+    {
+      "name": "737704731",
+      "type": "uint32"
+    },
+    {
+      "name": "offsets",
+      "type": "Vector4"
+    },
+    {
+      "name": "receiveName",
+      "type": "string"
+    },
+    {
+      "name": "852104428",
+      "type": "bool"
+    },
+    {
+      "name": "1124949394",
+      "type": "float"
+    },
+    {
+      "name": "4166394991",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "ProgramEffect"
+    }
+  ]
+}

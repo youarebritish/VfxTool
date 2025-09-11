@@ -1,0 +1,19 @@
+{
+  "name": "TppCigaretteSmokeProgramEffectNode",
+  "properties": [
+    {
+      "name": "baseColor",
+      "type": "Vector4"
+    },
+    {
+      "name": "offsetPos",
+      "type": "Vector4"
+    },
+    {
+      "name": "randomSeed",
+      "type": "uint32"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": []
+}

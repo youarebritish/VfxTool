@@ -1,18 +1,25 @@
 {
   "name": "FxGameTimeInterpolateVectorNode",
-  "properties":
-  [
+  "properties": [
     {
-      "name": "unknownFloat0",
+      "name": "1973130802",
       "type": "float"
     },
     {
-      "name": "unknownFloat1",
+      "name": "3391186724",
       "type": "float"
     },
     {
-      "name": "unknownBool0",
+      "name": "reverse",
       "type": "bool"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
     }
   ]
 }

@@ -1,42 +1,55 @@
 {
   "name": "FxCenterDistRateVectorNode",
-  "properties": 
-  [
+  "properties": [
     {
-      "name": "unknownInt8_0000",
-      "type": "int8"
+      "name": "3342545297",
+      "type": "bool"
     },
     {
-      "name": "unknownInt8_0010",
-      "type": "int8"
+      "name": "2882738667",
+      "type": "bool"
     },
     {
-      "name": "unknownInt8_0020",
-      "type": "int8"
+      "name": "3838874333",
+      "type": "bool"
     },
     {
-      "name": "unknownInt8_0030",
-      "type": "int8"
+      "name": "793885922",
+      "type": "bool"
     },
     {
-      "name": "unknownVector4_0000",
+      "name": "farDist",
       "type": "Vector4"
     },
     {
-      "name": "unknownVector4_0010",
+      "name": "farScale",
       "type": "Vector4"
     },
     {
-      "name": "unknownVector4_0020",
+      "name": "nearDist",
       "type": "Vector4"
     },
     {
-      "name": "unknownVector4_0030",
+      "name": "nearScale",
       "type": "Vector4"
     },
     {
-      "name": "unknownString_0000",
+      "name": "951165574",
       "type": "string"
-    },
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
   ]
 }

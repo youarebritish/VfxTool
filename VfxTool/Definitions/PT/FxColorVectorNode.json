@@ -1,0 +1,17 @@
+{
+  "name": "FxColorVectorNode",
+  "properties": [
+    {
+      "name": "color",
+      "type": "Vector4"
+    }
+  ],
+  "inputPorts": [],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

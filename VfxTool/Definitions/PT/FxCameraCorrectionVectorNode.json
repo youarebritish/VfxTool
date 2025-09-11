@@ -1,0 +1,55 @@
+{
+  "name": "FxCameraCorrectionVectorNode",
+  "properties": [
+    {
+      "name": "1005946506",
+      "type": "float"
+    },
+    {
+      "name": "3792722204",
+      "type": "uint32"
+    },
+    {
+      "name": "3128717630",
+      "type": "float"
+    },
+    {
+      "name": "584270736",
+      "type": "bool"
+    },
+    {
+      "name": "3030680779",
+      "type": "float"
+    },
+    {
+      "name": "1455601537",
+      "type": "float"
+    },
+    {
+      "name": "2352781344",
+      "type": "float"
+    },
+    {
+      "name": "2014801352",
+      "type": "float"
+    },
+    {
+      "name": "1042617715",
+      "type": "float"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}

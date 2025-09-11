@@ -14,7 +14,7 @@
       "type": "bool"
     },
     {
-      "name": "3975459112",
+      "name": "diffuseScale",
       "type": "float"
     },
     {
@@ -46,11 +46,11 @@
       "type": "float"
     },
     {
-      "name": "3106605974",
+      "name": "speculerPower",
       "type": "float"
     },
     {
-      "name": "2263292836",
+      "name": "speculerSharpness",
       "type": "float"
     }
   ],

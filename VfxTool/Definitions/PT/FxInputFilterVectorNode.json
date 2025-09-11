@@ -1,0 +1,27 @@
+{
+  "name": "FxInputFilterVectorNode",
+  "properties": [
+    {
+      "name": "filterType",
+      "type": "uint32"
+    },
+    {
+      "name": "4157329362",
+      "type": "bool"
+    }
+  ],
+  "inputPorts": [
+    {
+      "index": 0,
+      "name": "input",
+      "type": "Vector"
+    }
+  ],
+  "outputPorts": [
+    {
+      "index": 0,
+      "name": "output",
+      "type": "Vector"
+    }
+  ]
+}
