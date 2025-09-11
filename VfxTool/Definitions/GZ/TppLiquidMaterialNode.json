@@ -58,11 +58,11 @@
       "type": "float"
     },
     {
-      "name": "3106605974",
+      "name": "speculerPower",
       "type": "float"
     },
     {
-      "name": "2263292836",
+      "name": "speculerSharpness",
       "type": "float"
     },
     {
